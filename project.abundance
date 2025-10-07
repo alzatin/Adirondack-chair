@@ -106,8 +106,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.6629692832764505,
-          "y": 0.35714285714285715,
+          "x": 0.8592150170648465,
+          "y": 0.3726708074534162,
           "uniqueID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5",
           "ioValues": [
             {
@@ -194,7 +194,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-7926e69ce3c12d0ba52c40446c0d2c35b943f4cb2c98ae841d90f1b7c6ebdadb",
+                "geometry": "move-2d49427a2fe682219db18a5eb3ae52ae84c2e2464c4d288d2abcfd61dfe41d1c",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -775,13 +775,13 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.5409556313993173,
-          "y": 0.8105590062111802,
+          "x": 0.635665529010239,
+          "y": 0.6211180124223602,
           "uniqueID": "22492b82-2009-4cd1-aba3-d7cd12612578",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -8.5
             },
             {
               "name": "yDist",
@@ -815,6 +815,55 @@
             }
           ],
           "currentEquation": "x /2"
+        },
+        {
+          "atomType": "Equation",
+          "name": "Equation",
+          "x": 0.43430034129692835,
+          "y": 0.7422360248447205,
+          "uniqueID": "8509d621-4d36-417d-923c-9c9ad1848779",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 21
+            }
+          ],
+          "currentEquation": "-x/2 + 2"
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.6254266211604095,
+          "y": 0.8198757763975155,
+          "uniqueID": "de621f6b-0c94-4450-9da0-5edd24a3d396",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -8.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": -0.75
+            },
+            {
+              "name": "zDist",
+              "ioValue": 9.5
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "name": "Equation",
+          "x": 0.4496587030716723,
+          "y": 0.9192546583850931,
+          "uniqueID": "7dd53e41-8352-4f2f-80e3-0ec6195d209b",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 21
+            }
+          ],
+          "currentEquation": "-x/2 + 2"
         }
       ],
       "allConnectors": [
@@ -831,10 +880,28 @@
           "ap2ID": "bf4ba965-40e1-4200-8d7a-0b457af0c117"
         },
         {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x",
+          "ap1ID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
+          "ap2ID": "8509d621-4d36-417d-923c-9c9ad1848779"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x",
+          "ap1ID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
+          "ap2ID": "7dd53e41-8352-4f2f-80e3-0ec6195d209b"
+        },
+        {
           "ap1Name": "geometry",
           "ap2Name": "Shape 1",
           "ap1ID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96",
           "ap2ID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "number or geometry",
+          "ap1ID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5",
+          "ap2ID": "2ad99410-d549-4746-ba4a-bad908b6f3ae"
         },
         {
           "ap1Name": "geometry",
@@ -885,6 +952,12 @@
           "ap2ID": "22492b82-2009-4cd1-aba3-d7cd12612578"
         },
         {
+          "ap1Name": "geometry or number",
+          "ap2Name": "geometry",
+          "ap1ID": "0855765a-e7d7-4da1-8f60-2a844300c222",
+          "ap2ID": "de621f6b-0c94-4450-9da0-5edd24a3d396"
+        },
+        {
           "ap1Name": "result",
           "ap2Name": "yDist",
           "ap1ID": "1933eafd-01c9-4102-a091-acba8c049976",
@@ -907,10 +980,16 @@
           "ap2Name": "zDist",
           "ap1ID": "1b7985c1-0512-4021-9d73-a4b08279f2aa",
           "ap2ID": "22492b82-2009-4cd1-aba3-d7cd12612578"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "xDist",
+          "ap1ID": "8509d621-4d36-417d-923c-9c9ad1848779",
+          "ap2ID": "22492b82-2009-4cd1-aba3-d7cd12612578"
         }
       ],
       "fileTypeVersion": 1,
-      "compiledBom": {}
+      "compiledBom": []
     }
   ],
   "allConnectors": [],
