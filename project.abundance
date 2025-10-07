@@ -649,8 +649,8 @@
         {
           "atomType": "Molecule",
           "name": "Front leg",
-          "x": 0.35665529010238906,
-          "y": 0.2919254658385093,
+          "x": 0.2986348122866894,
+          "y": 0.35714285714285715,
           "uniqueID": "0855765a-e7d7-4da1-8f60-2a844300c222",
           "ioValues": [
             {
@@ -725,6 +725,38 @@
                 {
                   "name": "z-axis degrees",
                   "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.25170648464163825,
+              "y": 0.5869565217391304,
+              "uniqueID": "85fea893-3d67-4a0d-aaa1-a3c1766c66cb",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 6,
+                  "currentEquation": "6"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 6,
+                  "currentEquation": "6"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "name": "Extrude",
+              "x": 0.4709897610921501,
+              "y": 0.6180124223602484,
+              "uniqueID": "dc3b2ab3-02ef-4690-abd9-de78dde5c3ca",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 10
                 }
               ]
             }
@@ -833,8 +865,8 @@
         {
           "atomType": "Equation",
           "name": "Equation",
-          "x": 0.5307167235494881,
-          "y": 0.7888198757763976,
+          "x": 0.4982935153583618,
+          "y": 0.6801242236024845,
           "uniqueID": "f86f675b-4c46-4a17-a7c5-46bb83e64a8d",
           "ioValues": [
             {
