@@ -44,8 +44,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.742320819112628,
-      "y": 0.5372670807453416,
+      "x": 0.7039249146757679,
+      "y": 0.40372670807453415,
       "uniqueID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ioValues": [
         {
@@ -273,7 +273,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-c25fc78f6970bfd9d068a0d5d441e75a42c2f09b4500b1f677775289fd637752",
+                "geometry": "move-53d554dbd55a905000fb51d1d2ab9077a37c42d18da7af5f7c0ec9f22cedfebb",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -297,7 +297,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-10370acb893405d51885f49bba1420ddb95467358da44636d8493a7c0a5e5fe8",
+                "geometry": "move-b7fc9b251a71649b3dc8bee197fdf88eb11be946f891cbbeea657c221b01d2e5",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -375,8 +375,8 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.341296928327645,
-      "y": 0.6490683229813664,
+      "x": 0.3515358361774744,
+      "y": 0.5403726708074534,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
@@ -488,8 +488,8 @@
         {
           "atomType": "Rotate",
           "name": "Rotate",
-          "x": 0.5546075085324232,
-          "y": 0.2577639751552795,
+          "x": 0.5290102389078498,
+          "y": 0.23602484472049692,
           "uniqueID": "fef21bc7-5419-44c8-a197-9a37285d0bee",
           "ioValues": [
             {
@@ -509,8 +509,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.7482935153583617,
-          "y": 0.453416149068323,
+          "x": 0.7474402730375426,
+          "y": 0.33540372670807456,
           "uniqueID": "04d19ae3-3f37-4ba9-986c-c68d91dc9fa9",
           "ioValues": [
             {
@@ -572,8 +572,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6800341296928327,
-          "y": 0.2546583850931677,
+          "x": 0.6604095563139931,
+          "y": 0.14596273291925466,
           "uniqueID": "0bf3b49f-fc1c-4c9e-bc1f-a5a7778c47a9",
           "ioValues": [
             {
@@ -726,8 +726,8 @@
         {
           "atomType": "Rotate",
           "name": "Rotate",
-          "x": 0.5767918088737202,
-          "y": 0.8291925465838509,
+          "x": 0.5563139931740614,
+          "y": 0.8354037267080745,
           "uniqueID": "4c835a0a-0153-401a-929b-f93b34c7d484",
           "ioValues": [
             {
@@ -736,8 +736,8 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": -30,
-              "currentEquation": "-30"
+              "ioValue": 24,
+              "currentEquation": "24"
             },
             {
               "name": "z-axis degrees",
@@ -748,8 +748,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6962457337883959,
-          "y": 0.7981366459627329,
+          "x": 0.6459044368600683,
+          "y": 0.8260869565217391,
           "uniqueID": "14f25ec3-8b17-4a18-9543-806a046513bc",
           "ioValues": [
             {
@@ -784,10 +784,57 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.7901023890784984,
-          "y": 0.7484472049689441,
+          "x": 0.7363481228668942,
+          "y": 0.6521739130434783,
           "uniqueID": "43814150-0ecf-4c25-8465-5f49b802f12f",
           "ioValues": []
+        },
+        {
+          "atomType": "Molecule",
+          "name": "back brace",
+          "x": 0.8353242320819113,
+          "y": 0.8322981366459627,
+          "uniqueID": "fd33fd4c-b7d6-42ec-b1d9-b5da97f60fba",
+          "ioValues": [],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "32c2bb16-179d-4516-92ee-8bbe0f31d402",
+              "ioValues": []
+            },
+            {
+              "atomType": "Input",
+              "name": "shape-for reference",
+              "x": 0.033,
+              "y": 0.531055900621118,
+              "uniqueID": "98c1d26e-cacf-484c-9a1b-a0e5a2acfd0b",
+              "ioValues": [],
+              "type": "geometry"
+            },
+            {
+              "atomType": "Color",
+              "name": "Color",
+              "x": 0.2935153583617748,
+              "y": 0.2701863354037267,
+              "uniqueID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec",
+              "ioValues": [],
+              "selectedColorIndex": 23
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "98c1d26e-cacf-484c-9a1b-a0e5a2acfd0b",
+              "ap2ID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec"
+            }
+          ],
+          "fileTypeVersion": 1,
+          "compiledBom": {}
         }
       ],
       "allConnectors": [
@@ -919,6 +966,12 @@
         },
         {
           "ap1Name": "geometry",
+          "ap2Name": "shape-for reference",
+          "ap1ID": "96280f7a-b813-4781-9d55-9808a2aa1046",
+          "ap2ID": "fd33fd4c-b7d6-42ec-b1d9-b5da97f60fba"
+        },
+        {
+          "ap1Name": "geometry",
           "ap2Name": "geometry",
           "ap1ID": "b9e30996-4248-4817-8d02-da1ed910d4ea",
           "ap2ID": "1908e4ed-f564-4feb-b5d4-4420722bfd6b"
@@ -960,8 +1013,8 @@
     {
       "atomType": "Molecule",
       "name": "Front Base",
-      "x": 0.32593856655290104,
-      "y": 0.3074534161490683,
+      "x": 0.3310580204778157,
+      "y": 0.27639751552795033,
       "uniqueID": "b655874b-661e-4645-83bd-89057d5179e8",
       "ioValues": [
         {
