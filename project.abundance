@@ -21,8 +21,8 @@
     },
     {
       "name": "armRestHeight",
-      "ioValue": 19,
-      "currentEquation": "19"
+      "ioValue": 22,
+      "currentEquation": "22"
     }
   ],
   "topLevel": true,
@@ -48,7 +48,7 @@
       "atomType": "Assembly",
       "name": "Assembly",
       "x": 0.7013651877133106,
-      "y": 0.3819875776397516,
+      "y": 0.422360248447205,
       "uniqueID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ioValues": [
         {
@@ -56,7 +56,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "cut-f0e8913ed27ae8e64e7ccbe54bcc8e047a776ab43b8a4e1c1f97e626620f62bf",
+                "geometry": "cut-ba779a522aa5810d991727105222887dda8fd2c3712863c7ccb1c1a35bb5676a",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -80,7 +80,7 @@
                 "bom": []
               },
               {
-                "geometry": "cut-4ca869f01a3d926526ce21eeb8cfd8530da922fb539ed0132d6ecc594f5f03cb",
+                "geometry": "cut-0227a0959927c50d05869e3cc1ae33506c22568599c3059e511aa4814ddf4987",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -106,7 +106,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-cec9cb39b48466ac91bd47f06bf95b22d57e5c2a24f7f85ee8caa9839c0d00a6",
+                    "geometry": "move-ad07a206048c532dceb61f104b3efcbad52b187f4df9760367a69f186e47ec7e",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -130,7 +130,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-653cbb485400783ee8ce672fd3013844864baf85191af7d60c48efc847b1599e",
+                    "geometry": "move-540595cc6f0eabf7fbca285742b0410c8fa604459704183aeeeca526d718d36c",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -178,7 +178,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-1195ac79003ca904cfe2e45b12dac103c20cab16653d0573015691d7f48f9c53",
+                    "geometry": "move-f9c3fdd671be25c022efed3519281e834c64c8ecb0fc60031ad5f12e144a5e20",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -202,7 +202,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-3e75dbe7023ab79e3ef3717a35339e56555b0f7029499026b6be8400d674200a",
+                    "geometry": "move-56583d6d91b59f2c848b9f4878f71b5c04016fc1066d5cc98b3c247ffc9cc1e0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -379,8 +379,8 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.371160409556314,
-      "y": 0.6242236024844721,
+      "x": 0.3600682593856655,
+      "y": 0.65527950310559,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
@@ -389,7 +389,7 @@
         },
         {
           "name": "ArmRestHeight",
-          "ioValue": 19
+          "ioValue": 22
         },
         {
           "name": "Seat Depth",
@@ -401,7 +401,8 @@
         },
         {
           "name": "backrestHeight",
-          "ioValue": 40
+          "ioValue": 40,
+          "currentEquation": "40"
         }
       ],
       "topLevel": false,
@@ -417,8 +418,8 @@
         {
           "atomType": "Rectangle",
           "name": "Rectangle",
-          "x": 0.30204778156996587,
-          "y": 0.38819875776397517,
+          "x": 0.2790102389078498,
+          "y": 0.3322981366459627,
           "uniqueID": "5f14ff69-a181-4c0b-9fe3-85fa149835da",
           "ioValues": [
             {
@@ -630,6 +631,20 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "name": "Equation",
+          "x": 0.35580204778157,
+          "y": 0.8322981366459627,
+          "uniqueID": "4f2e703d-5213-4e6b-9a24-0b114d214fa1",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 18
+            }
+          ],
+          "currentEquation": "x /2"
         }
       ],
       "allConnectors": [
@@ -644,6 +659,12 @@
           "ap2Name": "height",
           "ap1ID": "294c7b6c-98a8-4ecb-a514-370e981d35b4",
           "ap2ID": "e810b3c4-ee9e-44a8-bd24-fd09412d7aeb"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x",
+          "ap1ID": "72a869b2-4086-4bac-9940-7ddba2f18421",
+          "ap2ID": "4f2e703d-5213-4e6b-9a24-0b114d214fa1"
         },
         {
           "ap1Name": "number or geometry",
@@ -712,8 +733,8 @@
     {
       "atomType": "Molecule",
       "name": "Front Base",
-      "x": 0.34044368600682595,
-      "y": 0.2919254658385093,
+      "x": 0.32593856655290104,
+      "y": 0.3074534161490683,
       "uniqueID": "b655874b-661e-4645-83bd-89057d5179e8",
       "ioValues": [
         {
@@ -730,7 +751,7 @@
         },
         {
           "name": "armRestHeight",
-          "ioValue": 19
+          "ioValue": 22
         }
       ],
       "topLevel": false,
@@ -848,7 +869,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-cec9cb39b48466ac91bd47f06bf95b22d57e5c2a24f7f85ee8caa9839c0d00a6",
+                    "geometry": "move-ad07a206048c532dceb61f104b3efcbad52b187f4df9760367a69f186e47ec7e",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -872,7 +893,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-653cbb485400783ee8ce672fd3013844864baf85191af7d60c48efc847b1599e",
+                    "geometry": "move-540595cc6f0eabf7fbca285742b0410c8fa604459704183aeeeca526d718d36c",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -923,7 +944,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-1195ac79003ca904cfe2e45b12dac103c20cab16653d0573015691d7f48f9c53",
+                    "geometry": "move-f9c3fdd671be25c022efed3519281e834c64c8ecb0fc60031ad5f12e144a5e20",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -947,7 +968,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-3e75dbe7023ab79e3ef3717a35339e56555b0f7029499026b6be8400d674200a",
+                    "geometry": "move-56583d6d91b59f2c848b9f4878f71b5c04016fc1066d5cc98b3c247ffc9cc1e0",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1012,7 +1033,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 9.5
+              "ioValue": 11
             }
           ]
         },
@@ -1056,7 +1077,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 9.5
+              "ioValue": 11
             }
           ]
         },
@@ -1078,7 +1099,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 19
+              "ioValue": 22
             }
           ],
           "currentEquation": "x /2"
@@ -2118,6 +2139,12 @@
       "ap2Name": "ArmRestHeight",
       "ap1ID": "78b8967f-8669-419f-95c6-54166b63e8a7",
       "ap2ID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "armRestHeight",
+      "ap1ID": "78b8967f-8669-419f-95c6-54166b63e8a7",
+      "ap2ID": "b655874b-661e-4645-83bd-89057d5179e8"
     },
     {
       "ap1Name": "geometry or number",
