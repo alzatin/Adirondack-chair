@@ -1161,14 +1161,14 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.8336177474402731,
-              "y": 0.4161490683229814,
+              "x": 0.8361774744027305,
+              "y": 0.4316770186335404,
               "uniqueID": "19bc7837-162c-4a14-9e8e-9fa74e15355a",
               "ioValues": [
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "move-fb33c8f6aa60e636995aeaaa166e390d48e0ba573295df1969c39d63ccb3b589",
+                    "geometry": "move-9ffa84d55085647ba59790bbd6546b3736e54aaa42ef3410a0dad5c0a83c1d8c",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -1191,6 +1191,85 @@
                         1
                       ]
                     },
+                    "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": {
+                    "geometry": [
+                      {
+                        "geometry": "move-53d554dbd55a905000fb51d1d2ab9077a37c42d18da7af5f7c0ec9f22cedfebb",
+                        "dimension": "3D",
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#D9544D",
+                        "tags": [
+                          "keepout"
+                        ],
+                        "bom": []
+                      },
+                      {
+                        "geometry": "move-b7fc9b251a71649b3dc8bee197fdf88eb11be946f891cbbeea657c221b01d2e5",
+                        "dimension": "3D",
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#D9544D",
+                        "tags": [
+                          "keepout"
+                        ],
+                        "bom": []
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
                     "bom": []
                   }
                 }
@@ -1223,8 +1302,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.840443686006826,
-              "y": 0.7422360248447205,
+              "x": 0.8361774744027305,
+              "y": 0.7267080745341615,
               "uniqueID": "5eb89bd5-1b43-43bf-b1d1-bd390dc74be9",
               "ioValues": [
                 {
@@ -1234,8 +1313,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "9.5"
+                  "ioValue": 10.5,
+                  "currentEquation": "10.5"
                 },
                 {
                   "name": "zDist",
@@ -1248,7 +1327,7 @@
               "atomType": "Equation",
               "name": "Equation",
               "x": 0.6399317406143344,
-              "y": 0.8540372670807453,
+              "y": 0.8509316770186335,
               "uniqueID": "85bd12cc-85ee-437a-821a-590a913b4c2a",
               "ioValues": [
                 {
@@ -1265,6 +1344,12 @@
               "ap2Name": "geometry",
               "ap1ID": "98c1d26e-cacf-484c-9a1b-a0e5a2acfd0b",
               "ap2ID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec"
+            },
+            {
+              "ap1Name": "color",
+              "ap2Name": "Shape 5",
+              "ap1ID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec",
+              "ap2ID": "19bc7837-162c-4a14-9e8e-9fa74e15355a"
             },
             {
               "ap1Name": "geometry or number",
@@ -1435,7 +1520,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-6a89722fc855736e6a80728fcd179ba32f7badc489c581897773da2feea0e1b8",
+                    "geometry": "move-fb33c8f6aa60e636995aeaaa166e390d48e0ba573295df1969c39d63ccb3b589",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
