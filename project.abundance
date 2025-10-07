@@ -1,15 +1,163 @@
 {
-    "atomType": "Molecule",
-    "name": "Adirondack-chair",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "60190fbd-362e-465a-be61-3367e39e8181",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Adirondack-chair",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "60190fbd-362e-465a-be61-3367e39e8181",
+  "ioValues": [
+    {
+      "name": "Input (1)",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "ff6ad507-aa8e-44b8-86d6-4193b6225bb3",
+      "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "Input (1)",
+      "x": 0.033,
+      "y": 0.422360248447205,
+      "uniqueID": "64816851-3556-4faa-bcb0-0b4d2bf48336",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Base",
+      "x": 0.2696245733788396,
+      "y": 0.3944099378881988,
+      "uniqueID": "b655874b-661e-4645-83bd-89057d5179e8",
+      "ioValues": [
+        {
+          "name": "Seat Depth",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "2ad99410-d549-4746-ba4a-bad908b6f3ae",
+          "ioValues": []
+        },
+        {
+          "atomType": "Input",
+          "name": "Seat Depth",
+          "x": 0.033,
+          "y": 0.6304347826086957,
+          "uniqueID": "a07f39c1-b609-4dbb-8628-88dcbca9098d",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Molecule",
+          "name": "Side Piece",
+          "x": 0.2687713310580205,
+          "y": 0.45652173913043476,
+          "uniqueID": "09d02fbf-3b3e-47c8-86e4-6ecfe9a25872",
+          "ioValues": [],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "09d1518c-1e76-4a3b-98a5-a99811c9a6e8",
+              "ioValues": []
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.3122866894197952,
+              "y": 0.6459627329192547,
+              "uniqueID": "244f05af-45d6-4fda-b08f-77681488a58d",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 33.75,
+                  "currentEquation": "33.75"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 5.25,
+                  "currentEquation": "5.25"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "name": "Move",
+              "x": 0.4564846416382252,
+              "y": 0.3819875776397516,
+              "uniqueID": "00c63944-0ce5-4803-b7c1-e6921ef51943",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.2858361774744027,
+              "y": 0.40372670807453415,
+              "uniqueID": "123860b4-5039-4cf8-8482-fa70c9a4b06b",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 3.5,
+                  "currentEquation": "3.5"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 3.5,
+                  "currentEquation": "3.5"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "123860b4-5039-4cf8-8482-fa70c9a4b06b",
+              "ap2ID": "00c63944-0ce5-4803-b7c1-e6921ef51943"
+            }
+          ],
+          "fileTypeVersion": 1,
+          "compiledBom": {}
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
