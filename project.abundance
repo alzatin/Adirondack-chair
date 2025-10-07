@@ -795,7 +795,17 @@
           "x": 0.8353242320819113,
           "y": 0.8322981366459627,
           "uniqueID": "fd33fd4c-b7d6-42ec-b1d9-b5da97f60fba",
-          "ioValues": [],
+          "ioValues": [
+            {
+              "name": "seat width",
+              "ioValue": 21
+            },
+            {
+              "name": "plyThick",
+              "ioValue": 0.75,
+              "currentEquation": ".75"
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
             {
@@ -823,6 +833,198 @@
               "uniqueID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec",
               "ioValues": [],
               "selectedColorIndex": 23
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "name": "Rounded-rectangle-rep",
+              "x": 0.37627986348122866,
+              "y": 0.5745341614906833,
+              "uniqueID": "10103fed-6d17-4f6f-986b-c9177dda9a50",
+              "ioValues": [
+                {
+                  "name": "width",
+                  "ioValue": 27
+                },
+                {
+                  "name": "length",
+                  "ioValue": 8,
+                  "currentEquation": "8"
+                },
+                {
+                  "name": "radius",
+                  "ioValue": 3
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.75
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "name": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "51431bf1-18b3-4519-87c9-dd974079d913",
+                  "ioValues": []
+                },
+                {
+                  "atomType": "Code",
+                  "name": "Code",
+                  "x": 0.5328151986183074,
+                  "y": 0.48757763975155277,
+                  "uniqueID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 0.75
+                    },
+                    {
+                      "name": "width",
+                      "ioValue": 27
+                    },
+                    {
+                      "name": "rad",
+                      "ioValue": 3
+                    },
+                    {
+                      "name": "length",
+                      "ioValue": 8
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "\n      const Inputs = [\n      {inputName: \"width\", type: \"number\", defaultValue: 5},\n        {inputName: \"length\", type: \"number\", defaultValue: 10},\n        {inputName: \"rad\", type: \"number\", defaultValue: 2},\n         {inputName: \"height\", type: \"number\", defaultValue: 1}\n        \n      ]\n\n      const newPlane = new replicad.Plane().pivot(0, 'Y')\n      //Create a new shape from scratch using replicad\nconsole.log(replicad)\n      let createdRoundedRectangle = replicad.sketchRoundedRectangle(width, length, rad, newPlane).extrude(height)\n    console.log(createdRoundedRectangle)\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [createdRoundedRectangle],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n     \n\n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+                },
+                {
+                  "atomType": "Input",
+                  "name": "width",
+                  "x": 0.033,
+                  "y": 0.3322981366459627,
+                  "uniqueID": "b5a759a5-f934-4949-affd-c6a092efd69a",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "length",
+                  "x": 0.033,
+                  "y": 0.5,
+                  "uniqueID": "ae2b8159-bde4-48fd-baba-01e1713a028d",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "radius",
+                  "x": 0.033,
+                  "y": 0.6863354037267081,
+                  "uniqueID": "f5a6d9b9-568f-47b2-88cc-2c279865b71a",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "height",
+                  "x": 0.033,
+                  "y": 0.8260869565217391,
+                  "uniqueID": "13d29f4c-df17-4f12-b0f2-6c675023605a",
+                  "ioValues": [],
+                  "type": "number"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap1Name": "output",
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2",
+                  "ap2ID": "51431bf1-18b3-4519-87c9-dd974079d913"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "width",
+                  "ap1ID": "b5a759a5-f934-4949-affd-c6a092efd69a",
+                  "ap2ID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "length",
+                  "ap1ID": "ae2b8159-bde4-48fd-baba-01e1713a028d",
+                  "ap2ID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "rad",
+                  "ap1ID": "f5a6d9b9-568f-47b2-88cc-2c279865b71a",
+                  "ap2ID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "height",
+                  "ap1ID": "13d29f4c-df17-4f12-b0f2-6c675023605a",
+                  "ap2ID": "b21eb3cc-c39c-4a0e-9118-0d25e0969cd2"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2025-10-07T15:47:14.795Z",
+                "privateRepo": false,
+                "repoName": "Rounded-rectangle-rep",
+                "dateCreated": "2025-10-07T14:21:34Z",
+                "readMe": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "cda49ba0-13f8-4029-b2b8-230ed42791e4",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/alzatin/Rounded-rectangle-rep",
+                "topics": [
+                  "abundance-tool",
+                  "3d"
+                ],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739531",
+                "ranking": 0,
+                "searchField": "rounded-rectangle-rep alzatin 3d extruded- rounded rectangle using replicad's sketchroundedrectangle method. less likely to fail when using larger radius.  abundance-tool 3d",
+                "owner": "alzatin",
+                "description": "3D Extruded- Rounded rectangle using replicad's sketchRoundedRectangle method. Less likely to fail when using larger radius. ",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "MM",
+              "fileTypeVersion": 1,
+              "compiledBom": []
+            },
+            {
+              "atomType": "Input",
+              "name": "seat width",
+              "x": 0.033,
+              "y": 0.8167701863354037,
+              "uniqueID": "0bd9a23d-c897-4526-9e34-4aef1765089c",
+              "ioValues": [],
+              "type": "number"
+            },
+            {
+              "atomType": "Equation",
+              "name": "Equation",
+              "x": 0.18515358361774745,
+              "y": 0.6614906832298136,
+              "uniqueID": "7c41f7f0-5c87-456e-ab93-cd64cb74942a",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 21
+                }
+              ],
+              "currentEquation": "x + 6"
+            },
+            {
+              "atomType": "Input",
+              "name": "plyThick",
+              "x": 0.033,
+              "y": 0.38819875776397517,
+              "uniqueID": "b183aa45-5f12-4de2-8e3f-ed17d4dc638e",
+              "ioValues": [],
+              "type": "number"
             }
           ],
           "allConnectors": [
@@ -831,6 +1033,24 @@
               "ap2Name": "geometry",
               "ap1ID": "98c1d26e-cacf-484c-9a1b-a0e5a2acfd0b",
               "ap2ID": "4ad0fe15-4db2-4034-9da8-7d127adc3eec"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "x",
+              "ap1ID": "0bd9a23d-c897-4526-9e34-4aef1765089c",
+              "ap2ID": "7c41f7f0-5c87-456e-ab93-cd64cb74942a"
+            },
+            {
+              "ap1Name": "result",
+              "ap2Name": "width",
+              "ap1ID": "7c41f7f0-5c87-456e-ab93-cd64cb74942a",
+              "ap2ID": "10103fed-6d17-4f6f-986b-c9177dda9a50"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "height",
+              "ap1ID": "b183aa45-5f12-4de2-8e3f-ed17d4dc638e",
+              "ap2ID": "10103fed-6d17-4f6f-986b-c9177dda9a50"
             }
           ],
           "fileTypeVersion": 1,
@@ -879,6 +1099,12 @@
           "ap2Name": "y length",
           "ap1ID": "e4d55c0d-fabf-4eaa-aaa1-42787c5631d4",
           "ap2ID": "b9e30996-4248-4817-8d02-da1ed910d4ea"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "seat width",
+          "ap1ID": "e4d55c0d-fabf-4eaa-aaa1-42787c5631d4",
+          "ap2ID": "fd33fd4c-b7d6-42ec-b1d9-b5da97f60fba"
         },
         {
           "ap1Name": "geometry",
