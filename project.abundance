@@ -38,7 +38,13 @@
       "ioValues": [
         {
           "name": "Seat Depth",
-          "ioValue": 10
+          "ioValue": 18,
+          "currentEquation": "18"
+        },
+        {
+          "name": "Seat Width",
+          "ioValue": 21,
+          "currentEquation": "21"
         }
       ],
       "topLevel": false,
@@ -64,7 +70,7 @@
           "atomType": "Molecule",
           "name": "Side Piece",
           "x": 0.2687713310580205,
-          "y": 0.45652173913043476,
+          "y": 0.23602484472049692,
           "uniqueID": "09d02fbf-3b3e-47c8-86e4-6ecfe9a25872",
           "ioValues": [
             {
@@ -470,9 +476,127 @@
           ],
           "fileTypeVersion": 1,
           "compiledBom": []
+        },
+        {
+          "atomType": "Input",
+          "name": "Seat Width",
+          "x": 0.033,
+          "y": 0.453416149068323,
+          "uniqueID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.4112627986348123,
+          "y": 0.32298136645962733,
+          "uniqueID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 21
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "name": "Assembly",
+          "x": 0.6083617747440273,
+          "y": 0.2111801242236025,
+          "uniqueID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-e75fb480ced0bf8a06eea9e5a9807fcf253598f252591ef854b61598efee49de",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-bce5a8e521334bc3bcccdae5d72ed81edf19c19058ab3070f74e8a7896409909",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "geometry",
+          "ap1ID": "09d02fbf-3b3e-47c8-86e4-6ecfe9a25872",
+          "ap2ID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "Shape 2",
+          "ap1ID": "09d02fbf-3b3e-47c8-86e4-6ecfe9a25872",
+          "ap2ID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "yDist",
+          "ap1ID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
+          "ap2ID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 1",
+          "ap1ID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96",
+          "ap2ID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5"
+        }
+      ],
       "fileTypeVersion": 1,
       "compiledBom": {}
     }
