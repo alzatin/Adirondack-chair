@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Adirondack-chair",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "60190fbd-362e-465a-be61-3367e39e8181",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
