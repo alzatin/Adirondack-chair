@@ -379,8 +379,8 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.36177474402730375,
-      "y": 0.6956521739130435,
+      "x": 0.3609215017064846,
+      "y": 0.7142857142857143,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
@@ -523,7 +523,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-28ee8fe6b6e04532d89e357dd2ed679cfa16d3a50e75d27de46d6dc70d75d47d",
+                "geometry": "move-509790f65be9c471d30373790dcd188bcdc4695606037871c48e10374d309288",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -579,8 +579,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6902730375426621,
-          "y": 0.43788819875776397,
+          "x": 0.6860068259385665,
+          "y": 0.42857142857142855,
           "uniqueID": "0bf3b49f-fc1c-4c9e-bc1f-a5a7778c47a9",
           "ioValues": [
             {
@@ -589,7 +589,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 9
             },
             {
               "name": "zDist",
@@ -615,7 +615,7 @@
           "atomType": "Equation",
           "name": "Equation",
           "x": 0.4522184300341297,
-          "y": 0.5093167701863354,
+          "y": 0.4937888198757764,
           "uniqueID": "4f2e703d-5213-4e6b-9a24-0b114d214fa1",
           "ioValues": [
             {
@@ -718,6 +718,12 @@
           "ap1Name": "result",
           "ap2Name": "zDist",
           "ap1ID": "32e621cb-66da-4b27-bfc2-668174b9c958",
+          "ap2ID": "0bf3b49f-fc1c-4c9e-bc1f-a5a7778c47a9"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "yDist",
+          "ap1ID": "4f2e703d-5213-4e6b-9a24-0b114d214fa1",
           "ap2ID": "0bf3b49f-fc1c-4c9e-bc1f-a5a7778c47a9"
         },
         {
