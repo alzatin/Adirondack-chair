@@ -273,7 +273,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-1ad0fd5b010564766bc60cfe2565978c2e31e401b29538768af2eb9c1048a021",
+                "geometry": "move-c25fc78f6970bfd9d068a0d5d441e75a42c2f09b4500b1f677775289fd637752",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -297,7 +297,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-164d577cd7fad48785600447e1263c0b7ba06be12d5d223190c7d24d3d34b1c1",
+                "geometry": "move-10370acb893405d51885f49bba1420ddb95467358da44636d8493a7c0a5e5fe8",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
