@@ -15,7 +15,8 @@
     },
     {
       "name": "ply thickness",
-      "ioValue": 10
+      "ioValue": 0.75,
+      "currentEquation": ".75"
     },
     {
       "name": "armRestHeight",
@@ -1422,13 +1423,14 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.2226962457337884,
-      "y": 0.6211180124223602,
+      "x": 0.2585324232081911,
+      "y": 0.6459627329192547,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
           "name": "plywood thickness",
-          "ioValue": 10
+          "ioValue": 0.75,
+          "currentEquation": "1"
         },
         {
           "name": "ArmRestHeight",
@@ -1441,6 +1443,11 @@
         {
           "name": "Seat Width",
           "ioValue": 10
+        },
+        {
+          "name": "backrestHeight",
+          "ioValue": 40,
+          "currentEquation": "40"
         }
       ],
       "topLevel": false,
@@ -1456,17 +1463,18 @@
         {
           "atomType": "Rectangle",
           "name": "Rectangle",
-          "x": 0.24146757679180886,
-          "y": 0.49689440993788814,
+          "x": 0.30204778156996587,
+          "y": 0.38819875776397517,
           "uniqueID": "5f14ff69-a181-4c0b-9fe3-85fa149835da",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 40
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 3,
+              "currentEquation": "3"
             }
           ]
         },
@@ -1483,7 +1491,7 @@
           "atomType": "Input",
           "name": "ArmRestHeight",
           "x": 0.033,
-          "y": 0.36645962732919257,
+          "y": 0.2608695652173913,
           "uniqueID": "edfba928-9791-4f8b-a4bd-f1e60075dd4f",
           "ioValues": [],
           "type": "number"
@@ -1501,21 +1509,62 @@
           "atomType": "Input",
           "name": "Seat Width",
           "x": 0.033,
-          "y": 0.7919254658385093,
+          "y": 0.3944099378881988,
           "uniqueID": "e4d55c0d-fabf-4eaa-aaa1-42787c5631d4",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.5691126279863481,
+          "y": 0.5714285714285714,
+          "uniqueID": "e810b3c4-ee9e-44a8-bd24-fd09412d7aeb",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 0.75
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "name": "backrestHeight",
+          "x": 0.033,
+          "y": 0.7857142857142857,
+          "uniqueID": "8f0ee403-c9df-43da-bf07-0b0936c64607",
           "ioValues": [],
           "type": "number"
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "5f14ff69-a181-4c0b-9fe3-85fa149835da",
+          "ap2ID": "e810b3c4-ee9e-44a8-bd24-fd09412d7aeb"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "height",
+          "ap1ID": "294c7b6c-98a8-4ecb-a514-370e981d35b4",
+          "ap2ID": "e810b3c4-ee9e-44a8-bd24-fd09412d7aeb"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x length",
+          "ap1ID": "8f0ee403-c9df-43da-bf07-0b0936c64607",
+          "ap2ID": "5f14ff69-a181-4c0b-9fe3-85fa149835da"
+        }
+      ],
       "fileTypeVersion": 1,
       "compiledBom": {}
     },
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.5093856655290102,
-      "y": 0.40993788819875776,
+      "x": 0.5042662116040956,
+      "y": 0.42857142857142855,
       "uniqueID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ioValues": [
         {
@@ -1774,6 +1823,18 @@
       "ap2Name": "Shape 1",
       "ap1ID": "b655874b-661e-4645-83bd-89057d5179e8",
       "ap2ID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "thickness",
+      "ap1ID": "04717211-c531-4f5a-8170-fc930e467a45",
+      "ap2ID": "b655874b-661e-4645-83bd-89057d5179e8"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "plywood thickness",
+      "ap1ID": "04717211-c531-4f5a-8170-fc930e467a45",
+      "ap2ID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c"
     }
   ],
   "unitsKey": "Inches",
