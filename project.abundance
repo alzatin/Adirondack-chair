@@ -731,8 +731,8 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.18430034129692835,
-              "y": 0.562111801242236,
+              "x": 0.18600682593856654,
+              "y": 0.4906832298136645,
               "uniqueID": "85fea893-3d67-4a0d-aaa1-a3c1766c66cb",
               "ioValues": [
                 {
@@ -817,8 +817,8 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.15870307167235495,
-              "y": 0.8012422360248447,
+              "x": 0.16552901023890784,
+              "y": 0.8074534161490683,
               "uniqueID": "511ffaa5-bd9d-4c9f-a3c8-5d21cd9719b0",
               "ioValues": [
                 {
@@ -867,7 +867,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": -1,
+                  "currentEquation": "-1"
                 },
                 {
                   "name": "zDist",
@@ -913,7 +914,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-846f6fb057ff4130a0e8844d99300db1152654413174a1e1aef097e44e7766fb",
+                    "geometry": "move-1a393899cb0266e26fdcf45684b4de2c42abddcaa046b36fdd5e227239277819",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
