@@ -53,7 +53,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "cut-e0829926de41092b7924a72d4b039a4cae897f9a5ab7147339839b59c51da2f2",
+                "geometry": "cut-737fe238ae080a0585638b57c31daf0551055f11aeaead182a7311591607ae7d",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -77,7 +77,7 @@
                 "bom": []
               },
               {
-                "geometry": "cut-e04ab7e91a3a255169278e044ddd48c0927549c1c29d6b47b0d78a31cd30633a",
+                "geometry": "cut-1125bc658e8be411140cbf7ff599dab663b424576b15f3ac87b3ee81ff1bfb2c",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -247,7 +247,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-90b7e6230a85ac699aa5e294e5a2d39f7a5f5909e5858d924ac97793f97e279a",
+                    "geometry": "move-fa0bbf63c97b6e0e7322a32ada24b0656a226003e53f433fb136a71710d18e4e",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -325,7 +325,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "cut-9c2a55cd04604a8ebaea261deba717b042132db4388671764a372125eba2a4be",
+                    "geometry": "cut-df507f567efd268574a2cce5eaa4cf472c54be326f98ec143d3325fef40cd5d8",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -349,7 +349,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "cut-68df57e30ff92ff04005ea2df739540d023cc1562ea3d2c4456c1816a5025ed0",
+                    "geometry": "cut-62602d3e7de6b9469c89a3851acba7b98a25bb5d0f172539b5f1e57248c4669b",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -397,7 +397,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-9d8a66771df2cad51d22ce383e2d971d5519ae6ee573e4fed5d5091b67c140e3",
+                    "geometry": "move-c82515d85488bac7ec341d112c3b189f1370ef3bc5adb1e1ef1d87467d458c5f",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -553,7 +553,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-33b54d34f8b24660bee78dc673feae8000af6f037b199677740b19f038e093c0",
+                "geometry": "move-967d8bec80736e8fca8a02e255bfe74261006a18082c96c633d54cc36ffd8829",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -577,7 +577,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-0807bbd92fa4eed7ecad1e2682ac35d86ad66ecc6e015bf0ca60db3981ea56d0",
+                "geometry": "move-690f996c68e57718f6166be36ca1f8717441e5896629dbf36344e0dcdadb4b8d",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -601,7 +601,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-6ec8b5cc625c083b1bbe8f039b338c8f7e6c0144b03cb060bba957be1822dc4b",
+                "geometry": "move-521e1a2aa4089d579c515dd7222a141bb27f79f61463f410dcf16b053a2e41ca",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -625,7 +625,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-d2695f36d5816aa78a9993dbd70b7f9dad6dc2cb3a53734dc38395079d58cd8f",
+                "geometry": "move-41f352aa2dd9681f12eff6bca13a24a31f99f74e8742fbb96c60568cdd8214ff",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -649,7 +649,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-0d9592d289a1cf77ca7ab5aa1e2c798d0683287f2db085ae4abdb6ab20ae65cc",
+                "geometry": "move-f3a737a02091d0af359a935e452dd45c91915cd596bfc5fe6a5d0dd4ef138219",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -673,7 +673,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-c0183f2e5a212ffd047fa5ac5a55e3d2ab9649eeba64435b16dec74c50faf82a",
+                "geometry": "move-9c5e34ce5f93843efc215b571891764cd350f5e447e2af1890007ea7f9f346a1",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -697,7 +697,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-8097e19497d1fa6aa9e4609a49275bf13a34fe602774d50371624decd5c2057c",
+                "geometry": "move-1eece05bc407fdb6dad40877a1f5d92a56ffc8bb74a376939cd2e893c2a42f3b",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -721,7 +721,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-a8150b5a1b046464dad8fff0ee09e06dff5bfeb79a2b1060eb5081247d145f40",
+                "geometry": "move-6ea54cbbfb24ca8bb1dc00a9c2437a4d725826936c33b716480fc88d81fb7c3c",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1085,7 +1085,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-90b7e6230a85ac699aa5e294e5a2d39f7a5f5909e5858d924ac97793f97e279a",
+                    "geometry": "move-fa0bbf63c97b6e0e7322a32ada24b0656a226003e53f433fb136a71710d18e4e",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -2151,8 +2151,8 @@
         {
           "atomType": "Molecule",
           "name": "back brace",
-          "x": 0.7064846416382252,
-          "y": 0.8726708074534161,
+          "x": 0.6999297259311315,
+          "y": 0.8602484472049688,
           "uniqueID": "9af9e312-8f02-41b1-8205-683433d9623d",
           "ioValues": [
             {
@@ -2280,7 +2280,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "move-90b7e6230a85ac699aa5e294e5a2d39f7a5f5909e5858d924ac97793f97e279a",
+                    "geometry": "move-fa0bbf63c97b6e0e7322a32ada24b0656a226003e53f433fb136a71710d18e4e",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -2332,13 +2332,14 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.8310580204778157,
-              "y": 0.8291925465838509,
+              "x": 0.8172874209416725,
+              "y": 0.8074534161490683,
               "uniqueID": "1ac9cca8-0cc9-4662-9fd8-7fb9bc7ee386",
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 3
+                  "ioValue": 4.5,
+                  "currentEquation": "4.5"
                 },
                 {
                   "name": "yDist",
@@ -2346,7 +2347,8 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.4
+                  "ioValue": 7.9,
+                  "currentEquation": "7.9"
                 }
               ]
             },
@@ -2776,8 +2778,8 @@
     {
       "atomType": "Molecule",
       "name": "Arms",
-      "x": 0.3899317406143345,
-      "y": 0.49689440993788814,
+      "x": 0.38510189739985945,
+      "y": 0.5,
       "uniqueID": "41af37e5-92b1-4a25-9b9d-5c20d49d71d2",
       "ioValues": [
         {
@@ -3395,8 +3397,8 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.3626279863481228,
-      "y": 0.7204968944099379,
+      "x": 0.3696416022487702,
+      "y": 0.7763975155279503,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
@@ -3893,7 +3895,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-9d8a66771df2cad51d22ce383e2d971d5519ae6ee573e4fed5d5091b67c140e3",
+                    "geometry": "move-c82515d85488bac7ec341d112c3b189f1370ef3bc5adb1e1ef1d87467d458c5f",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -3947,8 +3949,8 @@
         {
           "atomType": "Molecule",
           "name": "back brace",
-          "x": 0.8105802047781571,
-          "y": 0.8726708074534161,
+          "x": 0.8130709768095573,
+          "y": 0.8695652173913044,
           "uniqueID": "fd33fd4c-b7d6-42ec-b1d9-b5da97f60fba",
           "ioValues": [
             {
@@ -4086,7 +4088,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "move-9d8a66771df2cad51d22ce383e2d971d5519ae6ee573e4fed5d5091b67c140e3",
+                    "geometry": "move-c82515d85488bac7ec341d112c3b189f1370ef3bc5adb1e1ef1d87467d458c5f",
                     "dimension": "3D",
                     "tags": [
                       "createdShape"
@@ -4138,13 +4140,14 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.8460997891777934,
-              "y": 0.782608695652174,
+              "x": 0.8510189739985945,
+              "y": 0.8105590062111802,
               "uniqueID": "5eb89bd5-1b43-43bf-b1d1-bd390dc74be9",
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 11
+                  "ioValue": 12,
+                  "currentEquation": "12"
                 },
                 {
                   "name": "yDist",
@@ -4152,7 +4155,8 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 25.5
+                  "ioValue": 25,
+                  "currentEquation": "25"
                 }
               ]
             },
@@ -9227,14 +9231,14 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.5888966971187631,
-      "y": 0.7763975155279503,
+      "x": 0.5860857343640197,
+      "y": 0.782608695652174,
       "uniqueID": "45d20c37-d0d0-427c-a88f-a8e24471bbbd",
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": -28,
-          "currentEquation": "-28"
+          "ioValue": -26,
+          "currentEquation": "-26"
         },
         {
           "name": "y-axis degrees",
@@ -9251,14 +9255,14 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6647926914968376,
-      "y": 0.8881987577639752,
+      "x": 0.6704146170063247,
+      "y": 0.922360248447205,
       "uniqueID": "7bb7373c-0a3d-4d4b-9cd0-1aa390bbbb07",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 9.3,
-          "currentEquation": "9.3"
+          "ioValue": 10.5,
+          "currentEquation": "10.5"
         },
         {
           "name": "yDist",
