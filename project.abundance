@@ -3110,13 +3110,14 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.3387372013651877,
-          "y": 0.48757763975155277,
+          "x": 0.3361774744027304,
+          "y": 0.49689440993788814,
           "uniqueID": "dc549c17-0df1-4535-a533-fe5cd997227b",
           "ioValues": [
             {
               "name": "width",
-              "ioValue": 22
+              "ioValue": 22,
+              "currentEquation": "22"
             },
             {
               "name": "length",
