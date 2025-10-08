@@ -1448,8 +1448,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.803232607167955,
-          "y": 0.5062111801242236,
+          "x": 0.8046380885453268,
+          "y": 0.531055900621118,
           "uniqueID": "26cbcf68-6043-4f5b-adcb-b80224bbc444",
           "ioValues": [
             {
@@ -1617,7 +1617,34 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-7a30ebc89307ed8c713ce92706994bcdc4d99b252e7464cf91fa6c74620f3377",
+                "geometry": "move-2fb24912d9f9a139203f7239effb6c50aece86c755404d52a78205727d923a24",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": {
+                "geometry": "move-099db1bd380ac8c28622ba94ec7e1cd04d87c4a92646151f67ff92cfef8c56db",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -2510,8 +2537,8 @@
         {
           "atomType": "Molecule",
           "name": "moverot/7th",
-          "x": 0.5888966971187631,
-          "y": 0.7204968944099379,
+          "x": 0.5846802529866479,
+          "y": 0.7577639751552795,
           "uniqueID": "377dd8d2-32a6-4e2f-b8d9-643797145c70",
           "ioValues": [
             {
@@ -2524,19 +2551,23 @@
             },
             {
               "name": "movez",
-              "ioValue": 0.95
+              "ioValue": 2,
+              "currentEquation": "2"
             },
             {
               "name": "rotx",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "roty",
-              "ioValue": 0
+              "ioValue": -10,
+              "currentEquation": "-10"
             },
             {
               "name": "rotz",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ],
           "topLevel": false,
@@ -2575,7 +2606,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0.95
+                  "ioValue": 2
                 }
               ]
             },
@@ -2592,7 +2623,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": -10
                 },
                 {
                   "name": "z-axis degrees",
@@ -2726,13 +2757,14 @@
         {
           "atomType": "Molecule",
           "name": "moverot/7th",
-          "x": 0.6718200983836965,
-          "y": 0.84472049689441,
+          "x": 0.67463106113844,
+          "y": 0.8913043478260869,
           "uniqueID": "16568ecb-e83e-4944-b845-ab608e46803a",
           "ioValues": [
             {
               "name": "movex",
-              "ioValue": -2.75
+              "ioValue": 3,
+              "currentEquation": "3"
             },
             {
               "name": "movey",
@@ -2740,7 +2772,8 @@
             },
             {
               "name": "movez",
-              "ioValue": 0.95
+              "ioValue": 9.5,
+              "currentEquation": "9.5"
             },
             {
               "name": "rotx",
@@ -2749,8 +2782,8 @@
             },
             {
               "name": "roty",
-              "ioValue": -45,
-              "currentEquation": "-45"
+              "ioValue": -42,
+              "currentEquation": "-42"
             },
             {
               "name": "rotz",
@@ -2786,7 +2819,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -2.75
+                  "ioValue": 3
                 },
                 {
                   "name": "yDist",
@@ -2794,7 +2827,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0.95
+                  "ioValue": 9.5
                 }
               ]
             },
@@ -2811,7 +2844,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": -45
+                  "ioValue": -42
                 },
                 {
                   "name": "z-axis degrees",
@@ -3067,6 +3100,12 @@
           "ap2Name": "geometry",
           "ap1ID": "377dd8d2-32a6-4e2f-b8d9-643797145c70",
           "ap2ID": "16568ecb-e83e-4944-b845-ab608e46803a"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "Shape 8",
+          "ap1ID": "16568ecb-e83e-4944-b845-ab608e46803a",
+          "ap2ID": "26cbcf68-6043-4f5b-adcb-b80224bbc444"
         }
       ],
       "fileTypeVersion": 1,
