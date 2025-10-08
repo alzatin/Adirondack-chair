@@ -553,7 +553,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-e594b27c74e6eeaf7a482555e8676f3295224c8ba11c3ae0738dd4e161daf57a",
+                "geometry": "move-33b54d34f8b24660bee78dc673feae8000af6f037b199677740b19f038e093c0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -577,7 +577,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-3f26fffdc8d0ab22fa99b90ae624b468406eaeb8aa7ec76167e5f83096a04679",
+                "geometry": "move-0807bbd92fa4eed7ecad1e2682ac35d86ad66ecc6e015bf0ca60db3981ea56d0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -601,7 +601,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-b4a1112d3b53a7ade221b2b2db633107e68c4fddf8061e0d419ecc61bb3f8566",
+                "geometry": "move-6ec8b5cc625c083b1bbe8f039b338c8f7e6c0144b03cb060bba957be1822dc4b",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -625,7 +625,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-00b273ca562608f0246e0512e077d202552d5d72a914917c6d2ae07b6f765968",
+                "geometry": "move-d2695f36d5816aa78a9993dbd70b7f9dad6dc2cb3a53734dc38395079d58cd8f",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -649,7 +649,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-903c8b2fb83335fc4de2a528623b9c220db047ff7c0eaf7ec36ae340a3f90dc2",
+                "geometry": "move-0d9592d289a1cf77ca7ab5aa1e2c798d0683287f2db085ae4abdb6ab20ae65cc",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -673,7 +673,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-6a4f70ed7a955c3be099fa982559731e1c1781a8fc937654635ce24a8d9758ee",
+                "geometry": "move-c0183f2e5a212ffd047fa5ac5a55e3d2ab9649eeba64435b16dec74c50faf82a",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -697,7 +697,31 @@
                 "bom": []
               },
               {
-                "geometry": "move-546358854abebab313dbabc30f535dbbfca55610bc38247aa7b08d80480be948",
+                "geometry": "move-8097e19497d1fa6aa9e4609a49275bf13a34fe602774d50371624decd5c2057c",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              },
+              {
+                "geometry": "move-a8150b5a1b046464dad8fff0ee09e06dff5bfeb79a2b1060eb5081247d145f40",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -4616,8 +4640,8 @@
     {
       "atomType": "Molecule",
       "name": "Back Slots",
-      "x": 0.47786366830639493,
-      "y": 0.8757763975155279,
+      "x": 0.4757554462403374,
+      "y": 0.8788819875776397,
       "uniqueID": "ea914a92-91f8-49c0-9f88-1f8b111b47ba",
       "ioValues": [],
       "topLevel": false,
@@ -4721,8 +4745,8 @@
         {
           "atomType": "Molecule",
           "name": "moverot",
-          "x": 0.30631399317406144,
-          "y": 0.2670807453416149,
+          "x": 0.30639494026704145,
+          "y": 0.28260869565217395,
           "uniqueID": "ce3f47ee-07f6-4184-99ac-913808ebe390",
           "ioValues": [
             {
@@ -7196,8 +7220,8 @@
         {
           "atomType": "Molecule",
           "name": "Slots flat",
-          "x": 0.47645818692902314,
-          "y": 0.40062111801242234,
+          "x": 0.3569922698524245,
+          "y": 0.6118012422360248,
           "uniqueID": "872eb006-d0c7-42c3-bc4e-5d02950ee99b",
           "ioValues": [],
           "topLevel": false,
@@ -7213,10 +7237,37 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.8063139931740614,
-              "y": 0.5590062111801242,
+              "x": 0.8671820098383696,
+              "y": 0.49689440993788814,
               "uniqueID": "770c64f4-72a9-4afe-a67e-03552924db4a",
               "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": {
+                    "geometry": "move-cf17a5eb4d67e42b9f59195abc8ab6d9faf767438b3fff514d34e77206c510c9",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  }
+                },
                 {
                   "name": "Shape 2",
                   "ioValue": {
@@ -8396,8 +8447,8 @@
             {
               "atomType": "Molecule",
               "name": "moverot",
-              "x": 0.7619453924914675,
-              "y": 0.7981366459627329,
+              "x": 0.7420941672522838,
+              "y": 0.8012422360248447,
               "uniqueID": "3473177d-ae94-43e2-95b4-9815a4dd00da",
               "ioValues": [
                 {
@@ -8824,6 +8875,222 @@
               ],
               "fileTypeVersion": 1,
               "compiledBom": []
+            },
+            {
+              "atomType": "Molecule",
+              "name": "moverot",
+              "x": 0.8390723822909346,
+              "y": 0.7919254658385093,
+              "uniqueID": "8b0e2a4d-a8e7-404a-851d-73944c7ee177",
+              "ioValues": [
+                {
+                  "name": "movex",
+                  "ioValue": 2.7
+                },
+                {
+                  "name": "movey",
+                  "ioValue": -0.2
+                },
+                {
+                  "name": "movez",
+                  "ioValue": 0
+                },
+                {
+                  "name": "rotx",
+                  "ioValue": 0
+                },
+                {
+                  "name": "roty",
+                  "ioValue": 0
+                },
+                {
+                  "name": "rotz",
+                  "ioValue": -8
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "name": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "a4614675-33d4-4ae0-ba6d-8223fc38beba",
+                  "ioValues": []
+                },
+                {
+                  "atomType": "Input",
+                  "name": "input",
+                  "x": 0.025384615384615384,
+                  "y": 0.953416149068323,
+                  "uniqueID": "84437576-3d26-4e47-b356-6ef44514fdbe",
+                  "ioValues": [],
+                  "type": "geometry"
+                },
+                {
+                  "atomType": "Move",
+                  "name": "Move",
+                  "x": 0.47525597269624575,
+                  "y": 0.43788819875776397,
+                  "uniqueID": "24530590-b4a9-4d91-955d-91fc4ce1a216",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 2.7
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": -0.2
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rotate",
+                  "name": "Rotate",
+                  "x": 0.3199658703071672,
+                  "y": 0.6521739130434783,
+                  "uniqueID": "19fe11f4-98c1-4823-9882-8951dfabfafa",
+                  "ioValues": [
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": -8
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movex",
+                  "x": 0.025384615384615384,
+                  "y": 0.3105590062111801,
+                  "uniqueID": "c86b92f0-f7ae-4af7-b370-e53fc12b6d9b",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movey",
+                  "x": 0.025384615384615384,
+                  "y": 0.422360248447205,
+                  "uniqueID": "cbe2f414-aca3-47ca-870c-91b4af614cb7",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movez",
+                  "x": 0.025384615384615384,
+                  "y": 0.5,
+                  "uniqueID": "31c6f1f8-1a86-4884-b277-00a3c069ffbc",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "rotx",
+                  "x": 0.025384615384615384,
+                  "y": 0.6180124223602484,
+                  "uniqueID": "745adb60-5b1e-4cc8-9fed-7f8f23e6fc9f",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "roty",
+                  "x": 0.025384615384615384,
+                  "y": 0.7236024844720497,
+                  "uniqueID": "34d7e45d-8e45-42cc-8787-15ccb25f1fcb",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "rotz",
+                  "x": 0.025384615384615384,
+                  "y": 0.8198757763975155,
+                  "uniqueID": "7d1445e4-6abd-4a9b-906d-3709b8c3c33c",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "geometry",
+                  "x": 0.025384615384615384,
+                  "y": 0.2267080745341615,
+                  "uniqueID": "c05ab574-043b-49d0-8210-2737aad64f9e",
+                  "ioValues": [],
+                  "type": "geometry"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "24530590-b4a9-4d91-955d-91fc4ce1a216",
+                  "ap2ID": "a4614675-33d4-4ae0-ba6d-8223fc38beba"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "19fe11f4-98c1-4823-9882-8951dfabfafa",
+                  "ap2ID": "24530590-b4a9-4d91-955d-91fc4ce1a216"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "xDist",
+                  "ap1ID": "c86b92f0-f7ae-4af7-b370-e53fc12b6d9b",
+                  "ap2ID": "24530590-b4a9-4d91-955d-91fc4ce1a216"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "yDist",
+                  "ap1ID": "cbe2f414-aca3-47ca-870c-91b4af614cb7",
+                  "ap2ID": "24530590-b4a9-4d91-955d-91fc4ce1a216"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "zDist",
+                  "ap1ID": "31c6f1f8-1a86-4884-b277-00a3c069ffbc",
+                  "ap2ID": "24530590-b4a9-4d91-955d-91fc4ce1a216"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "x-axis degrees",
+                  "ap1ID": "745adb60-5b1e-4cc8-9fed-7f8f23e6fc9f",
+                  "ap2ID": "19fe11f4-98c1-4823-9882-8951dfabfafa"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "y-axis degrees",
+                  "ap1ID": "34d7e45d-8e45-42cc-8787-15ccb25f1fcb",
+                  "ap2ID": "19fe11f4-98c1-4823-9882-8951dfabfafa"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "z-axis degrees",
+                  "ap1ID": "7d1445e4-6abd-4a9b-906d-3709b8c3c33c",
+                  "ap2ID": "19fe11f4-98c1-4823-9882-8951dfabfafa"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "c05ab574-043b-49d0-8210-2737aad64f9e",
+                  "ap2ID": "19fe11f4-98c1-4823-9882-8951dfabfafa"
+                }
+              ],
+              "fileTypeVersion": 1,
+              "compiledBom": []
             }
           ],
           "allConnectors": [
@@ -8919,8 +9186,20 @@
             },
             {
               "ap1Name": "geometry or number",
+              "ap2Name": "geometry",
+              "ap1ID": "3473177d-ae94-43e2-95b4-9815a4dd00da",
+              "ap2ID": "8b0e2a4d-a8e7-404a-851d-73944c7ee177"
+            },
+            {
+              "ap1Name": "geometry or number",
               "ap2Name": "Shape 8",
               "ap1ID": "92a07688-2970-4452-aae7-cb3b498f7228",
+              "ap2ID": "770c64f4-72a9-4afe-a67e-03552924db4a"
+            },
+            {
+              "ap1Name": "geometry or number",
+              "ap2Name": "Shape 1",
+              "ap1ID": "8b0e2a4d-a8e7-404a-851d-73944c7ee177",
               "ap2ID": "770c64f4-72a9-4afe-a67e-03552924db4a"
             }
           ],
@@ -8972,14 +9251,14 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6704146170063247,
-      "y": 0.8229813664596274,
+      "x": 0.6647926914968376,
+      "y": 0.8881987577639752,
       "uniqueID": "7bb7373c-0a3d-4d4b-9cd0-1aa390bbbb07",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 8.5,
-          "currentEquation": "8.5"
+          "ioValue": 9.3,
+          "currentEquation": "9.3"
         },
         {
           "name": "yDist",
