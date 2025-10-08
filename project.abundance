@@ -4438,8 +4438,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.6109215017064846,
-          "y": 0.5434782608695652,
+          "x": 0.6040955631399317,
+          "y": 0.5496894409937888,
           "uniqueID": "04c9b548-79bf-40ec-9036-67fbc6f2c7cb",
           "ioValues": [
             {
@@ -4957,14 +4957,41 @@
                 "bom": [],
                 "dimension": "3D"
               }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-115d3e790abeca1275ada48e5b2a2300c3d4290908edf1f985f9c3e393ae42d7",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             }
           ]
         },
         {
           "atomType": "Molecule",
           "name": "Back Slot",
-          "x": 0.36689419795221845,
-          "y": 0.4472049689440994,
+          "x": 0.34556313993174065,
+          "y": 0.38509316770186336,
           "uniqueID": "a144b662-2129-4982-ab17-302c599d2dd4",
           "ioValues": [
             {
@@ -4986,8 +5013,8 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.2863481228668942,
-              "y": 0.4282608695652174,
+              "x": 0.26109215017064846,
+              "y": 0.4503105590062112,
               "uniqueID": "04292fa0-9c8d-4354-b4e8-b01806a93814",
               "ioValues": [
                 {
@@ -5016,8 +5043,8 @@
             {
               "atomType": "Rotate",
               "name": "Rotate",
-              "x": 0.45392491467576795,
-              "y": 0.43788819875776397,
+              "x": 0.4906143344709898,
+              "y": 0.4440993788819876,
               "uniqueID": "9c9ce3ae-d4c5-42de-beb8-906f41678e1a",
               "ioValues": [
                 {
@@ -5037,8 +5064,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.5998293515358362,
-              "y": 0.37888198757763975,
+              "x": 0.6331058020477816,
+              "y": 0.42546583850931674,
               "uniqueID": "fb3318d4-f0f3-4fa0-82d4-bc686ab5fc51",
               "ioValues": [
                 {
@@ -5085,6 +5112,12 @@
               "ap2ID": "fb3318d4-f0f3-4fa0-82d4-bc686ab5fc51"
             },
             {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "fb3318d4-f0f3-4fa0-82d4-bc686ab5fc51",
+              "ap2ID": "73d5b0b5-de83-4af6-8b0f-acfca5167b11"
+            },
+            {
               "ap1Name": "number or geometry",
               "ap2Name": "y-axis degrees",
               "ap1ID": "a911c624-67e9-4084-a450-6ad34d7d4ca9",
@@ -5092,7 +5125,7 @@
             }
           ],
           "fileTypeVersion": 1,
-          "compiledBom": {}
+          "compiledBom": []
         }
       ],
       "allConnectors": [
@@ -5107,6 +5140,12 @@
           "ap2Name": "number or geometry",
           "ap1ID": "04c9b548-79bf-40ec-9036-67fbc6f2c7cb",
           "ap2ID": "8f7f2154-aa91-489b-9eeb-c1d0518231b8"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "Shape 2",
+          "ap1ID": "a144b662-2129-4982-ab17-302c599d2dd4",
+          "ap2ID": "04c9b548-79bf-40ec-9036-67fbc6f2c7cb"
         }
       ],
       "fileTypeVersion": 1,
