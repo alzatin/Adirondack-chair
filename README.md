@@ -6,5 +6,7 @@
 
 
 
- 
+ I want to move this logic into a github molecule that moves and rotates a certain number of iterations
+
+
 

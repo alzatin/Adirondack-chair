@@ -2726,8 +2726,8 @@
         {
           "atomType": "Molecule",
           "name": "moverot/7th",
-          "x": 0.6465214335910049,
-          "y": 0.8354037267080745,
+          "x": 0.6718200983836965,
+          "y": 0.84472049689441,
           "uniqueID": "16568ecb-e83e-4944-b845-ab608e46803a",
           "ioValues": [
             {
@@ -2744,15 +2744,18 @@
             },
             {
               "name": "rotx",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "roty",
-              "ioValue": 0
+              "ioValue": -45,
+              "currentEquation": "-45"
             },
             {
               "name": "rotz",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ],
           "topLevel": false,
@@ -2808,7 +2811,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": -45
                 },
                 {
                   "name": "z-axis degrees",
@@ -2938,6 +2941,16 @@
           ],
           "fileTypeVersion": 1,
           "compiledBom": []
+        },
+        {
+          "atomType": "Readme",
+          "name": "README",
+          "x": 0.2888264230498946,
+          "y": 0.19254658385093168,
+          "uniqueID": "be69b193-84d8-490e-ae1e-d13587e2fa2c",
+          "ioValues": [],
+          "readMeText": "I want to move this logic into a github molecule that moves and rotates a certain number of iterations",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -3048,6 +3061,12 @@
           "ap2Name": "Shape 7",
           "ap1ID": "377dd8d2-32a6-4e2f-b8d9-643797145c70",
           "ap2ID": "26cbcf68-6043-4f5b-adcb-b80224bbc444"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "geometry",
+          "ap1ID": "377dd8d2-32a6-4e2f-b8d9-643797145c70",
+          "ap2ID": "16568ecb-e83e-4944-b845-ab608e46803a"
         }
       ],
       "fileTypeVersion": 1,
