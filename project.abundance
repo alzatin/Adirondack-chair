@@ -823,8 +823,8 @@
     {
       "atomType": "Molecule",
       "name": "Front Base",
-      "x": 0.3310580204778157,
-      "y": 0.3167701863354037,
+      "x": 0.3120168657765285,
+      "y": 0.2204968944099379,
       "uniqueID": "b655874b-661e-4645-83bd-89057d5179e8",
       "ioValues": [
         {
@@ -2802,8 +2802,8 @@
     {
       "atomType": "Molecule",
       "name": "Arms",
-      "x": 0.38510189739985945,
-      "y": 0.5,
+      "x": 0.382290934645116,
+      "y": 0.38819875776397517,
       "uniqueID": "41af37e5-92b1-4a25-9b9d-5c20d49d71d2",
       "ioValues": [
         {
@@ -3421,8 +3421,8 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.3696416022487702,
-      "y": 0.7763975155279503,
+      "x": 0.3394237526352776,
+      "y": 0.5279503105590062,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
         {
@@ -4668,8 +4668,8 @@
     {
       "atomType": "Molecule",
       "name": "Back Slots",
-      "x": 0.4708362614195362,
-      "y": 0.9161490683229815,
+      "x": 0.2937456078706957,
+      "y": 0.7515527950310559,
       "uniqueID": "ea914a92-91f8-49c0-9f88-1f8b111b47ba",
       "ioValues": [],
       "topLevel": false,
@@ -9501,8 +9501,8 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.5860857343640197,
-      "y": 0.782608695652174,
+      "x": 0.46240337315530566,
+      "y": 0.6366459627329192,
       "uniqueID": "45d20c37-d0d0-427c-a88f-a8e24471bbbd",
       "ioValues": [
         {
@@ -9525,8 +9525,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6704146170063247,
-      "y": 0.922360248447205,
+      "x": 0.5790583274771609,
+      "y": 0.562111801242236,
       "uniqueID": "7bb7373c-0a3d-4d4b-9cd0-1aa390bbbb07",
       "ioValues": [
         {
@@ -9545,6 +9545,37 @@
           "currentEquation": "20"
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Molecule",
+      "x": 0.6479269149683767,
+      "y": 0.7639751552795032,
+      "uniqueID": "8d7181b0-b19c-4764-b26b-eb1fe2f29456",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "952d186f-b386-4b44-b721-0dfe7cb222e2",
+          "ioValues": []
+        },
+        {
+          "atomType": "Input",
+          "name": "input",
+          "x": 0.025384615384615384,
+          "y": 0.7608695652173914,
+          "uniqueID": "fdafed17-7d44-4c3e-8919-95a2da1a6342",
+          "ioValues": [],
+          "type": "geometry"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [
@@ -9565,6 +9596,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ap2ID": "ff6ad507-aa8e-44b8-86d6-4193b6225bb3"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "input",
+      "ap1ID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
+      "ap2ID": "8d7181b0-b19c-4764-b26b-eb1fe2f29456"
     },
     {
       "ap1Name": "number or geometry",
