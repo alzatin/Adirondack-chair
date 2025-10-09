@@ -325,7 +325,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "cut-c1482bfd3e168c6e66b107b6e51b282508d4f05beaaad2394e8f64d12281e458",
+                    "geometry": "cut-b8f4b4d4c0cb4f4cb23482e5a8a32e5baf7c729089e1b79a85f2240174513af8",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -349,7 +349,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "cut-a1440abb15b9dc4a66be6d67603fe94867ec8155c474f66e12ea0558a8f31fb7",
+                    "geometry": "cut-ecdd4d61a771cdef53de59917e70ce953c4e8606f39ae8c5b7f91f9c4fc443ad",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -377,7 +377,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "cut-2678424f2faf384ec795bb2b75c7dd4a6ae90f17cade05d508ece75ab3c26074",
+                            "geometry": "cut-ba7038175332faa060f539cc985c84600b7a0b5fb6030696cfc6eb99e8cc0d81",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -401,7 +401,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "cut-306e2232b9f84a9e523c501bc3b8011ebb2834c17eaf7392d86f38e47518bea4",
+                            "geometry": "cut-a4f6721f0af449ad5d4ddefeeb512d8626ae5533b4ed49274068908af63a8df0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -741,12 +741,259 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-328c41a283a155c2361273ea1da0b8640c5aa592ee072a5568550d49fea079d0",
-                    "dimension": "3D",
-                    "tags": [
-                      "createdShape"
+                    "geometry": [
+                      {
+                        "geometry": "move-cac59af5798365bf4a72c48c6d8c3422428a88c8bc17a7793c7808f8f7bd6e39",
+                        "dimension": "3D",
+                        "tags": [
+                          "createdShape"
+                        ],
+                        "color": "#A3CE5B",
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "bom": []
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-d6614b900bd8e24a6d0933c6158c199b933b57a315334d9e1029d0ff1819e02f",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-e4bc5217932cab5a42f4e59337106d818d630bcdf25f09cad7298134d7e4d8f7",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2"
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-5580e6c118c729a8b4e9579595567f3848bcdb7e4e029c1069322ff3250b1126",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-05edc516626ce4f0fe684dac0576eef19614832a689bf79b29a2ced13ff92213",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2"
+                      }
                     ],
-                    "color": "#A3CE5B",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
                     "plane": {
                       "origin": [
                         0,
@@ -764,11 +1011,36 @@
                         1
                       ]
                     },
-                    "bom": []
+                    "color": "#aad7f2"
                   }
                 ],
                 "tags": [],
-                "bom": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -809,6 +1081,30 @@
             "tags": [],
             "color": "#aad7f2",
             "bom": [
+              {
+                "BOMitemName": "Wood Screw 1.25\"",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "Wood Screw 1.25\"",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "Wood Screw 1.25\"",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "Wood Screw 1.25\"",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
               {
                 "BOMitemName": "Wood Screw 1.25\"",
                 "numberNeeded": 1,
@@ -924,7 +1220,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-0a38e9cab3f0ded7240582657620070e166ff9ac04bff5b7d9129cda76f0a861",
+                    "geometry": "move-ff4c9e3428ec5dd40242e933fa7ecb305c1ea85c46edd576f6ed5e736092a763",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1049,7 +1345,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-9ed90b009e087f2f7125984c6c81d56daa4ba00bb728443c71183a3a469849e0",
+                        "geometry": "move-2f5fb206c0d69a4b5e186d3d87b2d263cf67c9ea9c547be1b1ebef650f0fda5a",
                         "tags": [],
                         "bom": [
                           {
@@ -1080,7 +1376,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-6e60f0e025e109ffee5f0ba6298c81a67e471852f70bb4eeb7881b08350fb6e6",
+                        "geometry": "move-6dc1c9dbc5f385e7bf42e56c12db171702c808ea5919ef9a626f0a7aca5142a1",
                         "tags": [],
                         "bom": [
                           {
@@ -1195,7 +1491,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-56a438fbd8b76babff4643f250da614c19e823ecc70e570c50b2acc637852e84",
+                    "geometry": "move-0fe29bb26154e2736102a423940d23c4b8570af303be6b04a5d86d5b0681282f",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1320,7 +1616,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-9d86981ec2e9afd181ae6751e999a3534a4a1630128440c7efc8c3a9e4896757",
+                        "geometry": "move-a882349e6deef586165c0d971adc2f3770f51c6e16f62e2e9f87a3987c7f8446",
                         "tags": [],
                         "bom": [
                           {
@@ -1351,7 +1647,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-1a117d1b386cd608e20ea3042d2c0c82d62ea32a64810d46ab690a5b0d55c8d5",
+                        "geometry": "move-109d33053dd809528230599f370fbc29f2dbb6db3ddca18754f639ee8560215a",
                         "tags": [],
                         "bom": [
                           {
@@ -1466,7 +1762,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-37c3cc99b63fca5c1b4d1cb99900ec3a79df5a93512157bf3faa4a96d8437480",
+                    "geometry": "move-74e32d8cca05c51a91ae84d3076784d5602310c5c6229d0adda887f3da519866",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1591,7 +1887,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-2a9bd5ef2e99739e36bad806a4243131426b3d76228fdc310c69b93a340fa684",
+                        "geometry": "move-0c33349c3fe517dce2e6dcef97aee78aef04e47b663a87d5a133cb22271a53fc",
                         "tags": [],
                         "bom": [
                           {
@@ -1622,7 +1918,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-348629a3bc861521f7e1b4c0fc87b9fd2f01616be429e21cabaa2f9cac245cd0",
+                        "geometry": "move-164fd3b2bcf46d0687489605e1240865df1b6f948c7cc36140cc12b39877a17a",
                         "tags": [],
                         "bom": [
                           {
@@ -1737,7 +2033,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-d371fdd2505d3cca64d9b478042739b0f4560f554234894519137b41ce506935",
+                    "geometry": "move-6290356c99670c98a67f86a5f7f7356f26e576816bece9a444f17e035475078d",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1862,7 +2158,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-21961a4c59fd0b45a974c13072b5a8581c9429cc9d950a665ddb3b72adcfce76",
+                        "geometry": "move-0353ba0de172e84c22beaf4ec21f8a7390f293005351fd4580666e475b88130a",
                         "tags": [],
                         "bom": [
                           {
@@ -1893,7 +2189,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-d1c030a56f71d1e756bdfa6e4cfed9816a31cdb590d89d1c7b9adadba0896675",
+                        "geometry": "move-fce64ba28b6b5e0fc87c2c2c9fbd8c9ede8e7e54ecd9b5311d854a93085a579c",
                         "tags": [],
                         "bom": [
                           {
@@ -2008,7 +2304,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-2f397a6eb477cb781e3c89f26be3ebdf5bf91716be289a6673b3769e2a1aa759",
+                    "geometry": "move-b2e0f38ae9615f179895f84e207a726bd750c095b386db3abea960cb33d2275c",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2133,7 +2429,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-7761b99e8f22684862b49fe176bd10dd60363f488d6fa3a61971b55e3c20c1ed",
+                        "geometry": "move-463cb0db556e2b6c18a97f1c570b946f8431448c45b6485b3873f2a700e149b9",
                         "tags": [],
                         "bom": [
                           {
@@ -2164,7 +2460,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-a10df3c7dcd872668d2184a03310c106f9c5156fefb622441aeab67f94b1294a",
+                        "geometry": "move-86c4eea11812ecafb93df4156093274b534963cc69e6bb675a2a1a6903ef6473",
                         "tags": [],
                         "bom": [
                           {
@@ -2279,7 +2575,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-ea6f864cd4d4df3cbd81b6fc36ba30cc8db7295027ebe8ad248b81b002b91dba",
+                    "geometry": "move-60c93c165a4a1a437e6b30e619042a6bf9da4344222f659bbdab1434857e1990",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2404,7 +2700,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-b37b6597e52d31d370db5842748ed65be416b35b2ff4bed41ad7cd7fdaa6efd4",
+                        "geometry": "move-cd82ca6b2f6d45a0e146c924171614451ba83ef8126b477d5f76bfadada7b6d0",
                         "tags": [],
                         "bom": [
                           {
@@ -2435,7 +2731,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-d1b6a10fa5d5e1f81b2edacc013369334a20144d59875d254f6e752e5bb3a71d",
+                        "geometry": "move-b7d226a009b022f20b10192cbf65c61f8fb67bbc10e08a48ea62e502f6d4c98d",
                         "tags": [],
                         "bom": [
                           {
@@ -2550,7 +2846,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-94f4455805944c535f32f71ee3eb4e031c102df8e036112e7fb00189109b0984",
+                    "geometry": "move-e88e960ca3aba782b9da03fa7aecdacffcd2013b0ea7d77980415a2f0e68d281",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2675,7 +2971,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-c9bc0b9bbfd27ffed68842e149be8947a28f8dbd65b65534a69d519bef9e7da0",
+                        "geometry": "move-aefc11e6d9911fe80ab30a6afcee3fa95e3a8f4361da0c3ac84a5cf8284165af",
                         "tags": [],
                         "bom": [
                           {
@@ -2706,7 +3002,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-62b3d49c89b476922d82723595c08ff3ba61adb5baf23c1350f075eea26f313d",
+                        "geometry": "move-9f2f64025d867160e99a5321ee3a01835405917dfe3f8ae589e6b93449408102",
                         "tags": [],
                         "bom": [
                           {
@@ -2821,7 +3117,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-e8faf2bd0bcef86033698ab22fed2c0e70a2f20bc5a2c06db678d708937da732",
+                    "geometry": "move-5a341b20213d9983069426a260f2c02abefba210ee2d50bef764a8aacdd6a567",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2946,7 +3242,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-5ea717eeabe8be57092f3a52727b6603f1cf5dc54a16008dac0f402b3f13b9ba",
+                        "geometry": "move-a185ef8c26f96e5afd48ea44e47a15abeb25a68e515643ae3955f42e234105d5",
                         "tags": [],
                         "bom": [
                           {
@@ -2977,7 +3273,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-022d950f64802b4209a9badcc962769cf53ee685a4e8404c90a2cb7eb5cb7022",
+                        "geometry": "move-672412be00e53c0163c72ce3ec31617c2e4521864905972eac9a437018cb29ba",
                         "tags": [],
                         "bom": [
                           {
@@ -3092,7 +3388,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-e2b2c9d07b265c0b88cb592da5bcea59957571307fd6534addbeba6de5a86552",
+                    "geometry": "move-eb05835d409307bea3fa61265a10f3455f1874f708f5e7479537941df4f93bf9",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -3217,7 +3513,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-ebc94946907753e4839d9a7821fcc28c42879eeb4295f642917b85e5ab2adef0",
+                        "geometry": "move-d98136e513c5724136bb9bf63ba9c65ca150ce6c9b0dc1dd054e0277e8cfb88e",
                         "tags": [],
                         "bom": [
                           {
@@ -3248,7 +3544,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-67979f10df2240b855b51034f95c34b0d3df66d0c8889a9e07ab4ba0a0de05d0",
+                        "geometry": "move-38d52bede3690d63213470b35d19789be4e89081f1b5e9b171f2cae7d252b08d",
                         "tags": [],
                         "bom": [
                           {
@@ -12722,7 +13018,7 @@
     {
       "atomType": "Molecule",
       "name": "Back base",
-      "x": 0.34740545294635006,
+      "x": 0.3518029903254178,
       "y": 0.5683229813664596,
       "uniqueID": "aa94f5f5-8f1f-4e7e-8fe6-b0813a7ec98c",
       "ioValues": [
@@ -13889,7 +14185,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-529ed4cdcd6343c8721dc617c1c69f2524a89aaebc1872fc57a9ee17b6a7d554",
+                        "geometry": "move-cac59af5798365bf4a72c48c6d8c3422428a88c8bc17a7793c7808f8f7bd6e39",
                         "dimension": "3D",
                         "tags": [
                           "createdShape"
@@ -13917,7 +14213,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-d22301ec980581711dc1647f748e9d4c4dc54cceee59e14acbe16ba090690be0",
+                            "geometry": "move-d6614b900bd8e24a6d0933c6158c199b933b57a315334d9e1029d0ff1819e02f",
                             "tags": [],
                             "bom": [
                               {
@@ -13948,7 +14244,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-ca3f97d5d8724e949cc08689d2f5e00fc1a7ff3a4b0e71a7a2eed66df593f4ca",
+                            "geometry": "move-e4bc5217932cab5a42f4e59337106d818d630bcdf25f09cad7298134d7e4d8f7",
                             "tags": [],
                             "bom": [
                               {
@@ -14016,7 +14312,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-822ef6508a6ba7dda5934000c60bcb47961783c3711cc254556d69247a220216",
+                            "geometry": "move-5580e6c118c729a8b4e9579595567f3848bcdb7e4e029c1069322ff3250b1126",
                             "tags": [],
                             "bom": [
                               {
@@ -14047,7 +14343,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-89d7175759a9f283a5661f2e365195c4f81b3e0c47e46775b33d540614134327",
+                            "geometry": "move-05edc516626ce4f0fe684dac0576eef19614832a689bf79b29a2ced13ff92213",
                             "tags": [],
                             "bom": [
                               {
@@ -14358,7 +14654,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-529ed4cdcd6343c8721dc617c1c69f2524a89aaebc1872fc57a9ee17b6a7d554",
+                        "geometry": "move-cac59af5798365bf4a72c48c6d8c3422428a88c8bc17a7793c7808f8f7bd6e39",
                         "dimension": "3D",
                         "tags": [
                           "createdShape"
@@ -14386,7 +14682,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-d22301ec980581711dc1647f748e9d4c4dc54cceee59e14acbe16ba090690be0",
+                            "geometry": "move-d6614b900bd8e24a6d0933c6158c199b933b57a315334d9e1029d0ff1819e02f",
                             "tags": [],
                             "bom": [
                               {
@@ -14417,7 +14713,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-ca3f97d5d8724e949cc08689d2f5e00fc1a7ff3a4b0e71a7a2eed66df593f4ca",
+                            "geometry": "move-e4bc5217932cab5a42f4e59337106d818d630bcdf25f09cad7298134d7e4d8f7",
                             "tags": [],
                             "bom": [
                               {
@@ -14485,7 +14781,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-822ef6508a6ba7dda5934000c60bcb47961783c3711cc254556d69247a220216",
+                            "geometry": "move-5580e6c118c729a8b4e9579595567f3848bcdb7e4e029c1069322ff3250b1126",
                             "tags": [],
                             "bom": [
                               {
@@ -14516,7 +14812,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-89d7175759a9f283a5661f2e365195c4f81b3e0c47e46775b33d540614134327",
+                            "geometry": "move-05edc516626ce4f0fe684dac0576eef19614832a689bf79b29a2ced13ff92213",
                             "tags": [],
                             "bom": [
                               {
@@ -15261,7 +15557,7 @@
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": 1.25
+                      "ioValue": 1
                     },
                     {
                       "name": "yDist",
@@ -15283,7 +15579,7 @@
                     {
                       "name": "Shape 1",
                       "ioValue": {
-                        "geometry": "move-49c1e2c06ce106590fc99504fbc5b0647e78baa462fe5e19920c16a5ea25c6da",
+                        "geometry": "move-abc4933deb0253a3444d5382eb02f471c39e1cf8e62450183db23a304fd8dfe8",
                         "tags": [],
                         "bom": [
                           {
@@ -15317,7 +15613,7 @@
                     {
                       "name": "Shape 3",
                       "ioValue": {
-                        "geometry": "move-825eb351266ee3d0da2d5e51329ea49a8f210a9fb75824b9dc28a0af6d398093",
+                        "geometry": "move-6449c3b05af75ceef4d3f515323c2a7fc39ddc78b229ed5614ab8be2631109c2",
                         "tags": [],
                         "bom": [
                           {
@@ -15368,7 +15664,7 @@
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": -1.25
+                      "ioValue": -1
                     },
                     {
                       "name": "yDist",
@@ -15383,8 +15679,8 @@
                 {
                   "atomType": "Equation",
                   "name": "Equation",
-                  "x": 0.2735268249780123,
-                  "y": 0.41304347826086957,
+                  "x": 0.266490765171504,
+                  "y": 0.42857142857142855,
                   "uniqueID": "a21b3770-2a5a-41e7-a2cb-4c7670c56c5b",
                   "ioValues": [
                     {
@@ -15392,7 +15688,7 @@
                       "ioValue": 5
                     }
                   ],
-                  "currentEquation": "x/4"
+                  "currentEquation": "x/5"
                 },
                 {
                   "atomType": "Equation",
@@ -15406,7 +15702,7 @@
                       "ioValue": 5
                     }
                   ],
-                  "currentEquation": "-x/4"
+                  "currentEquation": "-x/5"
                 },
                 {
                   "atomType": "Rotate",
@@ -15613,7 +15909,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-d457f1c78115e65d22320a3ab677dfaa5cded2bd0933a2bc45a0e2339c4bf106",
+                        "geometry": "move-99ca9a294aa47367c2a8b077222f3398ee3b13b2ddecdd9e817ed5ea9c313e49",
                         "tags": [],
                         "bom": [
                           {
@@ -15644,7 +15940,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-fd4463f63685e2aebdd9f5da58af09dd88603682607ef732d834a24c49635976",
+                        "geometry": "move-c85f056bb531b5455e128898a43f2183cada0cb524ca587e0b5db428faa61cd4",
                         "tags": [],
                         "bom": [
                           {
@@ -15715,7 +16011,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-4e96a3d7efed107bfd8d5b93b8e34df3e5ac1d51d8d906411e0affdce2080261",
+                        "geometry": "move-c4a6de11fd558ae3abae72444604a1c9dce86ad1a0ed7c3f95ddae619567be70",
                         "tags": [],
                         "bom": [
                           {
@@ -15746,7 +16042,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-d368338f5837e7beb26151d7285d0aff8d7fb4af5a7fa1bb014c8d9639882b81",
+                        "geometry": "move-92b325fd75e3b75818305c769308d9ba79638be9597820fc974bf5f00e12ab20",
                         "tags": [],
                         "bom": [
                           {
@@ -18785,8 +19081,8 @@
     {
       "atomType": "Molecule",
       "name": "Back Slots",
-      "x": 0.29023746701846964,
-      "y": 0.9130434782608695,
+      "x": 0.2884784520668426,
+      "y": 0.8788819875776397,
       "uniqueID": "ea914a92-91f8-49c0-9f88-1f8b111b47ba",
       "ioValues": [
         {
@@ -18847,7 +19143,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-cc2c77957b8d3e9e35c9d34617cd8ea02e90574686080df0a818b405a1da56d2",
+                        "geometry": "move-05747a96cb100de69a02332c38d84aa468c34d606a7348ef20c6bd48764f95b2",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -18972,7 +19268,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-fe2677ad3ada9a0670ff6a9117da3a71ec34b6d1ca939edcd02e1d269d93bcdf",
+                            "geometry": "move-7916b76f8ce86770e0b40283e140cbb5100a7d3d868df9ab3c4fd937f6abfd7a",
                             "tags": [],
                             "bom": [
                               {
@@ -19003,7 +19299,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-19b2cf7879037420940c40c5476a8fe88d8d7e60c2145477bdd4d06628e8c390",
+                            "geometry": "move-0ea8dae841f045eda8f974db8ff65670364e9e278732049c81402b40390d8653",
                             "tags": [],
                             "bom": [
                               {
@@ -19121,7 +19417,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-dfe7390a0c45bead7af793ea6c3ea68d7e7fa8b28e392b55eb20b0cd3f8b5282",
+                        "geometry": "move-a2ce83e8cfe9b3901a5857c193e356088681b3e6a76b51b1bb4a70060040f597",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -19246,7 +19542,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-8de354825c713676e5111f946a2053678d2f89e3eb9f1aa9d209a32ebc8e5140",
+                            "geometry": "move-442ae3432c99d579f312b9b2b23b5589379b8e03253d550dd75fc84aa1700886",
                             "tags": [],
                             "bom": [
                               {
@@ -19277,7 +19573,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-690f5a0d4ee0c6be7c65869d45cfbcb6f199aa92231fcf6b529ce752ec99470e",
+                            "geometry": "move-beddb8f5ddd9421ee8de7ceb8fc5c567159bcf85fad11282cf72e346fc97ee3e",
                             "tags": [],
                             "bom": [
                               {
@@ -19395,7 +19691,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-83f3be6dca8d5637f65f540b4b17f01c9b5e4b01ec086e72e14a22d93b242e9f",
+                        "geometry": "move-1d181f03bad73f35a67ce7d4b6941f96218ac7061d9adae57d9474adb45d2fd4",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -19520,7 +19816,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-1c1eadd7a9f0ac2fe8c346b6327fc03ffbae3f81750089626271871ceabfe73d",
+                            "geometry": "move-e782df3d6e07ae7de402131a5b528dbdc73c1e9032d7f90c5fb8e7ff742aaab1",
                             "tags": [],
                             "bom": [
                               {
@@ -19551,7 +19847,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-16d610b97fdfc492709f34e3a83009e0ad634d6b78ae517e07978272b5e54429",
+                            "geometry": "move-b6515a919aafeebf5b30405e2b526e4df60cceb192ac3051033c2a62ca4b1907",
                             "tags": [],
                             "bom": [
                               {
@@ -19669,7 +19965,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-80482c84bd2966a636cd849a64bc222b32dc4575499b899376b9c1cadadf4766",
+                        "geometry": "move-b882761a0908ed0055ab854db09e86c668e8ca25af8f544dc679b02e4db9aa93",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -19794,7 +20090,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-1487d0bfe7574df8d6fe07b97f8b22deb0dcbef4890f63fb149c026d13039fce",
+                            "geometry": "move-01e59915316fc616e3e6d581c10970208445ce999e5f251de8b758468580aa5d",
                             "tags": [],
                             "bom": [
                               {
@@ -19825,7 +20121,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-143f3be7bfa43dc59cd63e500055782041822e11b6fa68b914755a0864ec7ed2",
+                            "geometry": "move-ccbcee678fa3bd671d52c24ecfd76e865960675662a27831b9d61d3c8b736fb0",
                             "tags": [],
                             "bom": [
                               {
@@ -19943,7 +20239,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-9627bcd3b6e6c66ab211aaafc6393d4b89df6eda0465324f66453c4130e8c043",
+                        "geometry": "move-ac3a1df0bc71bb0b30a4bea02e29aa7ea92f7249ef3e0b422b66007b7e710013",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -20068,7 +20364,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-c2c67e5f0cc4a1c9d0adf01fe38df69f8168724bce012c2a0cf911f387cf8122",
+                            "geometry": "move-59315efe38a0ed9e1a71d78e909df44d536adc49272d5e01f4fd8db6ea92ecb3",
                             "tags": [],
                             "bom": [
                               {
@@ -20099,7 +20395,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-e364807153c2d3c8184ae12489c13a313f5e55ea85a90a1ca6187dba51371337",
+                            "geometry": "move-22d0c4cd05c71cbdfe53f0bb772168812a3de1f49007a9f6796a0526fc9e0fe8",
                             "tags": [],
                             "bom": [
                               {
@@ -20217,7 +20513,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-9053334a227d8b3d9d82d9b2ae11e8b286b9415a87ed1228bd66793b332480b5",
+                        "geometry": "move-71de667c9dfc8e985a1fc9d7b36d9ef5cb9442630cf5254f5670980c3aca56ca",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -20342,7 +20638,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-740c68db52b1dc6c631e428c421d659129023fad0abc45bfdb0366e01944f189",
+                            "geometry": "move-b49bc9c16eca350aeff2700dcd11c21d6e48658879a0242dc42e463831e1b07a",
                             "tags": [],
                             "bom": [
                               {
@@ -20373,7 +20669,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-9fe43db47509bec60609b6bf2effa8a146058e5bccd2c156a04cbb43cc6f1b1c",
+                            "geometry": "move-5680e92b0de34e9478f0f6d7483502cd7ed64ace12640ee92c0d9518939e39f5",
                             "tags": [],
                             "bom": [
                               {
@@ -20491,7 +20787,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-89e3c77a1fc4d10a8e2d928d94a10c736689622c0cde4e69f6699ee614fdb1f0",
+                        "geometry": "move-9879f82fad203b540cbc1d31851710bae1fd4ac019f76e983ffcf09f74d2c873",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -20616,7 +20912,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-0663d56e8e516fc82d6f35cbb7b1b118b44b13800786b7d3124dc70bfa6b909b",
+                            "geometry": "move-799e9915f3b702525df62d95b3e2cf6dac16ee226f68f8c111fa77ae08d8aa00",
                             "tags": [],
                             "bom": [
                               {
@@ -20647,7 +20943,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-96aaf7e201fc58f25a610d1a77113f8ed1cd33c9ff9853f4e523268425c4a019",
+                            "geometry": "move-0185b87567984ba474ad52852b739e38b316ab67c9f010cb84fa07d829251166",
                             "tags": [],
                             "bom": [
                               {
@@ -20765,7 +21061,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-2691fa5b8af1571fcd1eb9a93a33c68092b11f2f8f4f4588672a5601480aca7c",
+                        "geometry": "move-e10e15822704244f60350cd87a43f3fb2c8e674cad8c475c224c415325c3e21c",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -20890,7 +21186,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-93b30a450b94695013ec17259d77b589d09c2f056e9f49bbc328da7550b01d6d",
+                            "geometry": "move-361ba5c3ed2e2c2d4b792e13f52df7800fecd25396a8e7bc0b06c4d7f7597cd6",
                             "tags": [],
                             "bom": [
                               {
@@ -20921,7 +21217,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-1ae57fd03402038b93aa9899eaa4a468c37e87f0b2944828e72cf91719f5ee61",
+                            "geometry": "move-037a90c22416dd57bf6241f5b2bc7a577323358f70e7581923e3a204384053e1",
                             "tags": [],
                             "bom": [
                               {
@@ -21039,7 +21335,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-bfe8b8d3c484d26756d5f72dee66d303f020af4c47d92ee279ddfeb57bc2a412",
+                        "geometry": "move-1b628bd7723f1e0c5cdcd6c9773400dbf0c588b74ccbfd3c341220acf4a763c0",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
@@ -21164,7 +21460,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-85beb8a661ad60b3393d02906c7561a6516b6c2dc4ae9dee0d32a15301796584",
+                            "geometry": "move-d0850aed06d814580de47b8724e6c267c22f01a1b090ee66edd0a41462dae4e5",
                             "tags": [],
                             "bom": [
                               {
@@ -21195,7 +21491,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-eaa1afe4deb665d3cad0d4cc644ad02f3c17cf3bffedcaead2ed77ad7728f83d",
+                            "geometry": "move-a223056281a1c8c6ec549a8a051796d3d9ea2c9aa00257378f796e7b0efdb79e",
                             "tags": [],
                             "bom": [
                               {
@@ -23368,7 +23664,7 @@
                       "ioValue": {
                         "geometry": [
                           {
-                            "geometry": "move-e805a228f7130909ab2487482f26f2da8ba41f74b6f69374436a49a415e58d07",
+                            "geometry": "move-1ab01a045ed6a70f07c0c3a1c60c1e8f31b36b9b9bead62423cb0005239c607b",
                             "tags": [],
                             "bom": [
                               {
@@ -23399,7 +23695,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-6f05911eb704ef1ccef411bea187c28032e44c2718973ee4fea53c2be87b7b21",
+                            "geometry": "move-8ac5ea722f4fb1b1a04a6556fb361407bd6a971f73ab969b440d22334879f9cf",
                             "tags": [],
                             "bom": [
                               {
@@ -23693,7 +23989,8 @@
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": -4
+                      "ioValue": -4.2,
+                      "currentEquation": "-4.2"
                     },
                     {
                       "name": "yDist",
@@ -26439,7 +26736,7 @@
   "compiledBom": [
     {
       "BOMitemName": "Wood Screw 1.25\"",
-      "numberNeeded": 72,
+      "numberNeeded": 76,
       "costUSD": 0,
       "source": "www.example.com"
     }
