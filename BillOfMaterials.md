@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Wood Screw 1.25"|68|$0|www.example.com|
-|Total: |68|$0| |
+|Wood Screw 1.25"|72|$0|www.example.com|
+|Total: |72|$0| |
 
  3xCOG MSRP: $0.00
