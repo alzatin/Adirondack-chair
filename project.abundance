@@ -13455,8 +13455,8 @@
             {
               "atomType": "Molecule",
               "name": "brace part",
-              "x": 0.41688654353562005,
-              "y": 0.3136645962732919,
+              "x": 0.47317502198768685,
+              "y": 0.18322981366459629,
               "uniqueID": "b429e1c5-55ed-414b-95bc-94cfe6772ef7",
               "ioValues": [
                 {
@@ -14221,8 +14221,8 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.8135444151275285,
-              "y": 0.422360248447205,
+              "x": 0.8671943711521548,
+              "y": 0.5186335403726707,
               "uniqueID": "8bb05d8d-1f96-4dda-bdf2-48ecafda29f1",
               "ioValues": [
                 {
@@ -14306,7 +14306,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-a2821e28843418d154e6abcc9e3267075e3c97cfe66f79b75e7bfc3bcd5405c4",
+                        "geometry": "move-0cc21d4ed1331af92dadd58ddb2f51176779c6f2faf786b87d46390bb4b03cc2",
                         "tags": [],
                         "bom": [
                           {
@@ -14337,7 +14337,69 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-007971a5f3ec7e8b7d707755e423c02dbf386bf0a7c36c834322bd7b859a0792",
+                        "geometry": "move-8de7ae2568399a34600834059e825a64942fbaa893d2b4545d55364cd92326a8",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-7c1b150f6af29aa6f8171a7dd0845d996dc71b7658051174baa2909d959c79a3",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-e074605852bf2c9f77fe798a4fc84606a180aa43c8e43a719a511f14e9cdefae",
                         "tags": [],
                         "bom": [
                           {
@@ -14399,6 +14461,18 @@
                         "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
                       }
                     ]
                   }
@@ -14408,8 +14482,8 @@
             {
               "atomType": "Molecule",
               "name": "",
-              "x": 0.5092348284960422,
-              "y": 0.5714285714285714,
+              "x": 0.503957783641161,
+              "y": 0.7111801242236025,
               "uniqueID": "0fed9a9e-eb8a-400a-a317-1748751fc506",
               "ioValues": [
                 {
@@ -14635,8 +14709,8 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.5795954265611257,
-              "y": 0.6956521739130435,
+              "x": 0.6200527704485488,
+              "y": 0.7018633540372671,
               "uniqueID": "928897dc-a25e-476b-a6a0-a4232ccfd18d",
               "ioValues": [
                 {
@@ -14706,14 +14780,82 @@
                     "color": "#aad7f2",
                     "dimension": "3D"
                   }
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": {
+                    "geometry": "move-de329ddb213ffcec2a14bc6539602f5061e369d86f7f944c476bbb0994dbe139",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "dimension": "3D"
+                  }
+                },
+                {
+                  "name": "Shape 4",
+                  "ioValue": {
+                    "geometry": "move-51cd34b8df1746499ac0128c5f461c3ca9e0a429b078dd6886a4302822c790c1",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "dimension": "3D"
+                  }
                 }
               ]
             },
             {
               "atomType": "Molecule",
               "name": "",
-              "x": 0.49692172383465255,
-              "y": 0.7919254658385093,
+              "x": 0.5004397537379068,
+              "y": 0.8975155279503105,
               "uniqueID": "d3293cad-ca4d-4e71-9063-53fb6c18f91e",
               "ioValues": [
                 {
@@ -14965,8 +15107,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.6992084432717679,
-              "y": 0.5807453416149069,
+              "x": 0.7475813544415127,
+              "y": 0.6739130434782609,
               "uniqueID": "031f5721-cacf-48b9-87b2-7c536516a7b4",
               "ioValues": [
                 {
@@ -15051,14 +15193,13 @@
             {
               "atomType": "Molecule",
               "name": "",
-              "x": 0.7660510114335971,
-              "y": 0.8664596273291926,
-              "uniqueID": "48b92a38-38a8-4d0a-92cd-08056232fa9e",
+              "x": 0.5048372911169745,
+              "y": 0.3819875776397516,
+              "uniqueID": "19d32150-b40b-407e-bfaa-4ed3d7c3a093",
               "ioValues": [
                 {
                   "name": "movex",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": -0.75
                 },
                 {
                   "name": "movey",
@@ -15070,7 +15211,8 @@
                 },
                 {
                   "name": "rotx",
-                  "ioValue": 0
+                  "ioValue": 90,
+                  "currentEquation": "90"
                 },
                 {
                   "name": "roty",
@@ -15090,7 +15232,7 @@
                   "name": "Output",
                   "x": 0.98,
                   "y": 0.5,
-                  "uniqueID": "c1dc80b5-c1f1-4666-8234-37470db78af2",
+                  "uniqueID": "bd67bd0a-40d7-4e43-a99a-e992d5dec315",
                   "ioValues": []
                 },
                 {
@@ -15098,7 +15240,7 @@
                   "name": "input",
                   "x": 0.025384615384615384,
                   "y": 0.953416149068323,
-                  "uniqueID": "d2973b97-c1ee-46a5-8688-df1c7ad2ddb9",
+                  "uniqueID": "cedd8afa-8f59-4dab-b616-f0f3afcb5354",
                   "ioValues": [],
                   "type": "geometry"
                 },
@@ -15107,11 +15249,11 @@
                   "name": "Move",
                   "x": 0.47525597269624575,
                   "y": 0.43788819875776397,
-                  "uniqueID": "376efd05-4dac-449b-a3eb-2a198adc93f5",
+                  "uniqueID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6",
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": 0
+                      "ioValue": -0.75
                     },
                     {
                       "name": "yDist",
@@ -15128,11 +15270,11 @@
                   "name": "Rotate",
                   "x": 0.3199658703071672,
                   "y": 0.6521739130434783,
-                  "uniqueID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123",
+                  "uniqueID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862",
                   "ioValues": [
                     {
                       "name": "x-axis degrees",
-                      "ioValue": 0
+                      "ioValue": 90
                     },
                     {
                       "name": "y-axis degrees",
@@ -15149,7 +15291,7 @@
                   "name": "movex",
                   "x": 0.025384615384615384,
                   "y": 0.3105590062111801,
-                  "uniqueID": "f2fcba58-10de-49bc-a580-45a46a86faad",
+                  "uniqueID": "35dedda6-8b96-45ba-b320-5f31feff00ee",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15158,7 +15300,7 @@
                   "name": "movey",
                   "x": 0.025384615384615384,
                   "y": 0.422360248447205,
-                  "uniqueID": "980f45dc-766f-4f30-be0d-ca0815aa7da9",
+                  "uniqueID": "f3dd2247-c70b-4f13-91e9-979a8b75232a",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15167,7 +15309,7 @@
                   "name": "movez",
                   "x": 0.025384615384615384,
                   "y": 0.5,
-                  "uniqueID": "da18ecfc-be89-4698-8337-d1e65b79e866",
+                  "uniqueID": "de744636-79cd-471a-b1bd-9f5c6a8c8634",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15176,7 +15318,7 @@
                   "name": "rotx",
                   "x": 0.025384615384615384,
                   "y": 0.6180124223602484,
-                  "uniqueID": "ed15932d-1ec9-4c35-aa32-5838b0d4af0f",
+                  "uniqueID": "7b3e5b88-04a8-4381-8a0f-d646a06239f1",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15185,7 +15327,7 @@
                   "name": "roty",
                   "x": 0.025384615384615384,
                   "y": 0.7236024844720497,
-                  "uniqueID": "356d97da-1c56-4197-82ab-df6003e03e15",
+                  "uniqueID": "b43423bf-113b-4c6a-b73b-e07d04b7a515",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15194,7 +15336,7 @@
                   "name": "rotz",
                   "x": 0.025384615384615384,
                   "y": 0.8198757763975155,
-                  "uniqueID": "c8c96f90-c403-4940-a2ad-c971a10442cc",
+                  "uniqueID": "773cff55-3672-41e7-9732-1024a5958a74",
                   "ioValues": [],
                   "type": "number"
                 },
@@ -15203,7 +15345,7 @@
                   "name": "geometry",
                   "x": 0.025384615384615384,
                   "y": 0.2267080745341615,
-                  "uniqueID": "e15e7fd0-0121-4718-a88c-6ec549aa9171",
+                  "uniqueID": "7cda7c79-4080-49f2-b868-97d93c4dc8ae",
                   "ioValues": [],
                   "type": "geometry"
                 }
@@ -15212,63 +15354,289 @@
                 {
                   "ap1Name": "geometry",
                   "ap2Name": "number or geometry",
-                  "ap1ID": "376efd05-4dac-449b-a3eb-2a198adc93f5",
-                  "ap2ID": "c1dc80b5-c1f1-4666-8234-37470db78af2"
+                  "ap1ID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6",
+                  "ap2ID": "bd67bd0a-40d7-4e43-a99a-e992d5dec315"
                 },
                 {
                   "ap1Name": "geometry",
                   "ap2Name": "geometry",
-                  "ap1ID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123",
-                  "ap2ID": "376efd05-4dac-449b-a3eb-2a198adc93f5"
+                  "ap1ID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862",
+                  "ap2ID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "xDist",
-                  "ap1ID": "f2fcba58-10de-49bc-a580-45a46a86faad",
-                  "ap2ID": "376efd05-4dac-449b-a3eb-2a198adc93f5"
+                  "ap1ID": "35dedda6-8b96-45ba-b320-5f31feff00ee",
+                  "ap2ID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "yDist",
-                  "ap1ID": "980f45dc-766f-4f30-be0d-ca0815aa7da9",
-                  "ap2ID": "376efd05-4dac-449b-a3eb-2a198adc93f5"
+                  "ap1ID": "f3dd2247-c70b-4f13-91e9-979a8b75232a",
+                  "ap2ID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "zDist",
-                  "ap1ID": "da18ecfc-be89-4698-8337-d1e65b79e866",
-                  "ap2ID": "376efd05-4dac-449b-a3eb-2a198adc93f5"
+                  "ap1ID": "de744636-79cd-471a-b1bd-9f5c6a8c8634",
+                  "ap2ID": "c1410aee-c9ef-4af9-8ec7-b8c7641b76e6"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "x-axis degrees",
-                  "ap1ID": "ed15932d-1ec9-4c35-aa32-5838b0d4af0f",
-                  "ap2ID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123"
+                  "ap1ID": "7b3e5b88-04a8-4381-8a0f-d646a06239f1",
+                  "ap2ID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "y-axis degrees",
-                  "ap1ID": "356d97da-1c56-4197-82ab-df6003e03e15",
-                  "ap2ID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123"
+                  "ap1ID": "b43423bf-113b-4c6a-b73b-e07d04b7a515",
+                  "ap2ID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "z-axis degrees",
-                  "ap1ID": "c8c96f90-c403-4940-a2ad-c971a10442cc",
-                  "ap2ID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123"
+                  "ap1ID": "773cff55-3672-41e7-9732-1024a5958a74",
+                  "ap2ID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862"
                 },
                 {
                   "ap1Name": "number or geometry",
                   "ap2Name": "geometry",
-                  "ap1ID": "e15e7fd0-0121-4718-a88c-6ec549aa9171",
-                  "ap2ID": "fef3d2c6-a559-4a7c-8782-9a4c6aeaf123"
+                  "ap1ID": "7cda7c79-4080-49f2-b868-97d93c4dc8ae",
+                  "ap2ID": "1e6f74d3-b9e7-4182-945f-8bc476a2c862"
                 }
               ],
               "fileTypeVersion": 1,
               "compiledBom": [
                 {
                   "BOMitemName": "Wood Screw 1.25\"",
-                  "numberNeeded": 2,
+                  "numberNeeded": 1,
+                  "costUSD": 0,
+                  "source": "www.example.com"
+                }
+              ]
+            },
+            {
+              "atomType": "Molecule",
+              "name": "",
+              "x": 0.5021987686895338,
+              "y": 0.5372670807453416,
+              "uniqueID": "c5960350-7a18-4349-a7a9-465cebb7713f",
+              "ioValues": [
+                {
+                  "name": "movex",
+                  "ioValue": 0.75
+                },
+                {
+                  "name": "movey",
+                  "ioValue": 0
+                },
+                {
+                  "name": "movez",
+                  "ioValue": 0
+                },
+                {
+                  "name": "rotx",
+                  "ioValue": 90,
+                  "currentEquation": "90"
+                },
+                {
+                  "name": "roty",
+                  "ioValue": 90,
+                  "currentEquation": "90"
+                },
+                {
+                  "name": "rotz",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "name": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "3d9f7d52-b48a-46dd-a0b4-5677306898c7",
+                  "ioValues": []
+                },
+                {
+                  "atomType": "Input",
+                  "name": "input",
+                  "x": 0.025384615384615384,
+                  "y": 0.953416149068323,
+                  "uniqueID": "0991c532-5656-4836-a41b-bc719f405f74",
+                  "ioValues": [],
+                  "type": "geometry"
+                },
+                {
+                  "atomType": "Move",
+                  "name": "Move",
+                  "x": 0.47525597269624575,
+                  "y": 0.43788819875776397,
+                  "uniqueID": "87190e41-ca39-4834-ab42-7882b37cb7b3",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0.75
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rotate",
+                  "name": "Rotate",
+                  "x": 0.3199658703071672,
+                  "y": 0.6521739130434783,
+                  "uniqueID": "812893f9-4520-429e-8878-3be450b0666d",
+                  "ioValues": [
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 90
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 90
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movex",
+                  "x": 0.025384615384615384,
+                  "y": 0.3105590062111801,
+                  "uniqueID": "77a88b69-9d4a-4b65-89c8-0e9343a8b7bd",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movey",
+                  "x": 0.025384615384615384,
+                  "y": 0.422360248447205,
+                  "uniqueID": "788145e5-857e-4fd0-9f2b-21f80cae58a5",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "movez",
+                  "x": 0.025384615384615384,
+                  "y": 0.5,
+                  "uniqueID": "584af0e3-ca36-4c11-819a-939e3856317c",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "rotx",
+                  "x": 0.025384615384615384,
+                  "y": 0.6180124223602484,
+                  "uniqueID": "278599c2-bae0-4e3f-80f7-c91197dbe759",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "roty",
+                  "x": 0.025384615384615384,
+                  "y": 0.7236024844720497,
+                  "uniqueID": "b4d888e7-7499-4218-928a-eb91de7714a1",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "rotz",
+                  "x": 0.025384615384615384,
+                  "y": 0.8198757763975155,
+                  "uniqueID": "20f0ef66-f866-476f-8240-5b84d2241a01",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "geometry",
+                  "x": 0.025384615384615384,
+                  "y": 0.2267080745341615,
+                  "uniqueID": "c3afb5b9-f1e8-4b84-bf43-4e426adc40c0",
+                  "ioValues": [],
+                  "type": "geometry"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "87190e41-ca39-4834-ab42-7882b37cb7b3",
+                  "ap2ID": "3d9f7d52-b48a-46dd-a0b4-5677306898c7"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "812893f9-4520-429e-8878-3be450b0666d",
+                  "ap2ID": "87190e41-ca39-4834-ab42-7882b37cb7b3"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "xDist",
+                  "ap1ID": "77a88b69-9d4a-4b65-89c8-0e9343a8b7bd",
+                  "ap2ID": "87190e41-ca39-4834-ab42-7882b37cb7b3"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "yDist",
+                  "ap1ID": "788145e5-857e-4fd0-9f2b-21f80cae58a5",
+                  "ap2ID": "87190e41-ca39-4834-ab42-7882b37cb7b3"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "zDist",
+                  "ap1ID": "584af0e3-ca36-4c11-819a-939e3856317c",
+                  "ap2ID": "87190e41-ca39-4834-ab42-7882b37cb7b3"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "x-axis degrees",
+                  "ap1ID": "278599c2-bae0-4e3f-80f7-c91197dbe759",
+                  "ap2ID": "812893f9-4520-429e-8878-3be450b0666d"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "y-axis degrees",
+                  "ap1ID": "b4d888e7-7499-4218-928a-eb91de7714a1",
+                  "ap2ID": "812893f9-4520-429e-8878-3be450b0666d"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "z-axis degrees",
+                  "ap1ID": "20f0ef66-f866-476f-8240-5b84d2241a01",
+                  "ap2ID": "812893f9-4520-429e-8878-3be450b0666d"
+                },
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "c3afb5b9-f1e8-4b84-bf43-4e426adc40c0",
+                  "ap2ID": "812893f9-4520-429e-8878-3be450b0666d"
+                }
+              ],
+              "fileTypeVersion": 1,
+              "compiledBom": [
+                {
+                  "BOMitemName": "Wood Screw 1.25\"",
+                  "numberNeeded": 1,
                   "costUSD": 0,
                   "source": "www.example.com"
                 }
@@ -15379,16 +15747,16 @@
               "ap2ID": "0fed9a9e-eb8a-400a-a317-1748751fc506"
             },
             {
+              "ap1Name": "result",
+              "ap2Name": "movex",
+              "ap1ID": "30c0ec8f-8084-4624-bd39-cbe463f90d28",
+              "ap2ID": "19d32150-b40b-407e-bfaa-4ed3d7c3a093"
+            },
+            {
               "ap1Name": "geometry",
               "ap2Name": "Shape 2",
               "ap1ID": "031f5721-cacf-48b9-87b2-7c536516a7b4",
               "ap2ID": "8bb05d8d-1f96-4dda-bdf2-48ecafda29f1"
-            },
-            {
-              "ap1Name": "geometry",
-              "ap2Name": "geometry",
-              "ap1ID": "031f5721-cacf-48b9-87b2-7c536516a7b4",
-              "ap2ID": "48b92a38-38a8-4d0a-92cd-08056232fa9e"
             },
             {
               "ap1Name": "result",
@@ -15413,13 +15781,37 @@
               "ap2Name": "geometry",
               "ap1ID": "00e39a43-4e24-453e-9bb2-19acd11b8e32",
               "ap2ID": "d3293cad-ca4d-4e71-9063-53fb6c18f91e"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "00e39a43-4e24-453e-9bb2-19acd11b8e32",
+              "ap2ID": "19d32150-b40b-407e-bfaa-4ed3d7c3a093"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "00e39a43-4e24-453e-9bb2-19acd11b8e32",
+              "ap2ID": "c5960350-7a18-4349-a7a9-465cebb7713f"
+            },
+            {
+              "ap1Name": "geometry or number",
+              "ap2Name": "Shape 3",
+              "ap1ID": "19d32150-b40b-407e-bfaa-4ed3d7c3a093",
+              "ap2ID": "928897dc-a25e-476b-a6a0-a4232ccfd18d"
+            },
+            {
+              "ap1Name": "geometry or number",
+              "ap2Name": "Shape 4",
+              "ap1ID": "c5960350-7a18-4349-a7a9-465cebb7713f",
+              "ap2ID": "928897dc-a25e-476b-a6a0-a4232ccfd18d"
             }
           ],
           "fileTypeVersion": 1,
           "compiledBom": [
             {
               "BOMitemName": "Wood Screw 1.25\"",
-              "numberNeeded": 2,
+              "numberNeeded": 4,
               "costUSD": 0,
               "source": "www.example.com"
             }
