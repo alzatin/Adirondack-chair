@@ -44,279 +44,13 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.8540017590149516,
-      "y": 0.47204968944099385,
+      "x": 0.7924362357080036,
+      "y": 0.38509316770186336,
       "uniqueID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "cut-d72f9c6d3e3fc7ad568e14d7b4dd7947a286cf4cfa6c4b1e4b92ebc49ea6c843",
-                "dimension": "3D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              },
-              {
-                "geometry": "cut-9ed1071f2e0a0598163ab3e47848ed5e1135e3101dffb52dc5f8abfd6c6d57d6",
-                "dimension": "3D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-e6e84ca6ee9acbdeb3efcd9d82545f2313c2bbb7cef370184c3a65be15d9d507",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": "move-e3098791d8ac38deda047a69e5a6c3ae9c5834df6ca0e92e9cc324221ede5b48",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
-                ],
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-0c61919d71b7a5a4db9365485e00af7037e1704d05075d6476ee4a6087f9087d",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": "move-78cd8d0492efe3283c8c9d6a3b00cf9a031b6e152325e06ead838fe4b83ec9fd",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
-                ],
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-a8a92c093df4438a1b4b253db4865324a259dd287149419264562d04560b7989",
-                    "dimension": "3D",
-                    "tags": [
-                      "createdShape"
-                    ],
-                    "color": "#A3CE5B",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "bom": []
-                  }
-                ],
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "tags": [],
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D"
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 2",
@@ -5768,8 +5502,8 @@
     {
       "atomType": "Molecule",
       "name": "Seat Slots",
-      "x": 0.6473175021987687,
-      "y": 0.8633540372670808,
+      "x": 0.6508355321020228,
+      "y": 0.8664596273291926,
       "uniqueID": "8d7181b0-b19c-4764-b26b-eb1fe2f29456",
       "ioValues": [
         {
@@ -10417,8 +10151,8 @@
     {
       "atomType": "Molecule",
       "name": "Front Base",
-      "x": 0.31926121372031663,
-      "y": 0.24223602484472048,
+      "x": 0.3306948109058927,
+      "y": 0.22981366459627328,
       "uniqueID": "b655874b-661e-4645-83bd-89057d5179e8",
       "ioValues": [
         {
@@ -10490,8 +10224,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.848122866894198,
-          "y": 0.4472049689440994,
+          "x": 0.8443271767810027,
+          "y": 0.46583850931677023,
           "uniqueID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5",
           "ioValues": [
             {
@@ -10550,165 +10284,243 @@
             },
             {
               "name": "Shape 3",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": "move-e6e84ca6ee9acbdeb3efcd9d82545f2313c2bbb7cef370184c3a65be15d9d507",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": "move-e3098791d8ac38deda047a69e5a6c3ae9c5834df6ca0e92e9cc324221ede5b48",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 4",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": "move-0c61919d71b7a5a4db9365485e00af7037e1704d05075d6476ee4a6087f9087d",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": "move-78cd8d0492efe3283c8c9d6a3b00cf9a031b6e152325e06ead838fe4b83ec9fd",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 5",
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-a8a92c093df4438a1b4b253db4865324a259dd287149419264562d04560b7989",
-                    "dimension": "3D",
-                    "tags": [
-                      "createdShape"
+                    "geometry": [
+                      {
+                        "geometry": "move-7be3b85a4bba163cd7071933a62f61b6c43153ab3e1e4301bcb29ad80c6d114b",
+                        "dimension": "3D",
+                        "tags": [
+                          "createdShape"
+                        ],
+                        "color": "#A3CE5B",
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "bom": []
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-8b36eca8d1daf5dba542203695b643ef46e574b7ef8b1c5ea41f1600ab44d284",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-187599f3078c2d32ab587190febea806b07434c528c51ce5dc3b3271a75ce6a0",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ]
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-0545a7bcfd879aec6d0c00220f6c072e9daab2135f4f0dfb9797ed0439fdc0ca",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-34b8747fd24aabec496e63ffbcbca6662c66e7eb7d80a865fe592b3700497b7f",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ]
+                      }
                     ],
-                    "color": "#A3CE5B",
                     "plane": {
                       "origin": [
                         0,
@@ -10726,7 +10538,34 @@
                         1
                       ]
                     },
-                    "bom": []
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ]
                   }
                 ],
                 "plane": {
@@ -10748,7 +10587,32 @@
                 },
                 "tags": [],
                 "color": "#aad7f2",
-                "bom": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "Wood Screw 1.25\"",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  }
+                ],
                 "dimension": "2D"
               }
             }
@@ -11290,8 +11154,8 @@
         {
           "atomType": "Molecule",
           "name": "Front leg",
-          "x": 0.30606860158311344,
-          "y": 0.40062111801242234,
+          "x": 0.31926121372031663,
+          "y": 0.3726708074534162,
           "uniqueID": "0855765a-e7d7-4da1-8f60-2a844300c222",
           "ioValues": [
             {
@@ -11519,36 +11383,13 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.8643344709897611,
-              "y": 0.5124223602484472,
+              "x": 0.862796833773087,
+              "y": 0.5217391304347826,
               "uniqueID": "b5a835f1-d866-4c83-86d4-ff05794038db",
               "ioValues": [
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "cut-c2b53834c76106cc13c7644389636a373ff5c1ffeaada2d896bdb546c563b9ce",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 4",
@@ -11582,8 +11423,8 @@
             {
               "atomType": "Difference",
               "name": "Difference",
-              "x": 0.7875426621160408,
-              "y": 0.2950310559006211,
+              "x": 0.7854001759014951,
+              "y": 0.3074534161490683,
               "uniqueID": "e07d1f2f-ef35-4b8b-b85b-11167bffdfef",
               "ioValues": []
             },
@@ -11770,7 +11611,7 @@
           "atomType": "Molecule",
           "name": "back brace",
           "x": 0.7150395778364117,
-          "y": 0.8726708074534161,
+          "y": 0.8540372670807453,
           "uniqueID": "9af9e312-8f02-41b1-8205-683433d9623d",
           "ioValues": [
             {
@@ -11900,7 +11741,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "move-a8a92c093df4438a1b4b253db4865324a259dd287149419264562d04560b7989",
+                        "geometry": "move-7be3b85a4bba163cd7071933a62f61b6c43153ab3e1e4301bcb29ad80c6d114b",
                         "dimension": "3D",
                         "tags": [
                           "createdShape"
@@ -11924,6 +11765,204 @@
                           ]
                         },
                         "bom": []
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-8b36eca8d1daf5dba542203695b643ef46e574b7ef8b1c5ea41f1600ab44d284",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-187599f3078c2d32ab587190febea806b07434c528c51ce5dc3b3271a75ce6a0",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ]
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-0545a7bcfd879aec6d0c00220f6c072e9daab2135f4f0dfb9797ed0439fdc0ca",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": "move-34b8747fd24aabec496e63ffbcbca6662c66e7eb7d80a865fe592b3700497b7f",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "Wood Screw 1.25\"",
+                                "numberNeeded": 1,
+                                "costUSD": 0,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          },
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ]
                       }
                     ],
                     "plane": {
@@ -11945,7 +11984,32 @@
                     },
                     "color": "#aad7f2",
                     "tags": [],
-                    "bom": []
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ]
                   }
                 }
               ]
@@ -12173,8 +12237,8 @@
             {
               "atomType": "Molecule",
               "name": "2screwform",
-              "x": 0.35356200527704484,
-              "y": 0.2857142857142857,
+              "x": 0.19876868953386104,
+              "y": 0.22981366459627328,
               "uniqueID": "1401d087-8598-4962-8a92-37862123726a",
               "ioValues": [
                 {
@@ -12257,7 +12321,7 @@
                     {
                       "name": "Shape 3",
                       "ioValue": {
-                        "geometry": "move-4d4090c48b3e9447a6e31396b50bba14c1f4800113212e4301407e2e4975f83a",
+                        "geometry": "move-6a78f08451aff67f3b37059d94b4f94dc9f250b0b9918e2363323c21ab29dfe3",
                         "tags": [],
                         "bom": [
                           {
@@ -12302,13 +12366,13 @@
                 {
                   "atomType": "Move",
                   "name": "Move",
-                  "x": 0.4142480211081794,
-                  "y": 0.7639751552795032,
+                  "x": 0.44239226033421286,
+                  "y": 0.7763975155279503,
                   "uniqueID": "07f00140-f3ba-4c39-b3f0-c3b4c9bd9a09",
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": -1
+                      "ioValue": -1.25
                     },
                     {
                       "name": "yDist",
@@ -12337,8 +12401,8 @@
                 {
                   "atomType": "Equation",
                   "name": "Equation",
-                  "x": 0.2752858399296394,
-                  "y": 0.7950310559006211,
+                  "x": 0.27792436235708,
+                  "y": 0.8043478260869565,
                   "uniqueID": "9d2db4f7-144f-48ef-93de-53ab4daf890c",
                   "ioValues": [
                     {
@@ -12346,7 +12410,7 @@
                       "ioValue": 5
                     }
                   ],
-                  "currentEquation": "-x/5"
+                  "currentEquation": "-x/4"
                 },
                 {
                   "atomType": "Rotate",
@@ -12361,8 +12425,8 @@
                     },
                     {
                       "name": "y-axis degrees",
-                      "ioValue": 180,
-                      "currentEquation": "180"
+                      "ioValue": 0,
+                      "currentEquation": "0"
                     },
                     {
                       "name": "z-axis degrees",
@@ -12852,8 +12916,8 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.6657871591908531,
-              "y": 0.32608695652173914,
+              "x": 0.6710642040457344,
+              "y": 0.3167701863354037,
               "uniqueID": "428bb29c-ad13-41fc-b851-8eb34466bc1c",
               "ioValues": [
                 {
@@ -12884,8 +12948,292 @@
                     },
                     "bom": []
                   }
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": {
+                    "geometry": [
+                      {
+                        "geometry": "move-ec0fc8c16369b6174d11187ae38cf6ec843e8322f470235ce21e49d37d58ac01",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-354f51582f0343b49e7900db9879a5291529eb7505958a44a4ae2dd73233888c",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": {
+                    "geometry": [
+                      {
+                        "geometry": "move-cbd2b9bf9c4cc367cc34a0947fd9a5f239112501dd62d769f389461aa6caf763",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-b2ace67eb56149b892ba9b3fa6aec9300bcd3a6c4906f8fd36482b1bfd97de78",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "Wood Screw 1.25\"",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "Wood Screw 1.25\"",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ]
+                  }
                 }
               ]
+            },
+            {
+              "atomType": "Move",
+              "name": "Move",
+              "x": 0.5074758135444151,
+              "y": 0.2639751552795031,
+              "uniqueID": "7547b5a0-f47f-4ddf-91d1-359c7b95042a",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 12.125
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0.5,
+                  "currentEquation": ".5"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Equation",
+              "name": "Equation",
+              "x": 0.30255057167985927,
+              "y": 0.2639751552795031,
+              "uniqueID": "3e986161-9710-4d6d-ab34-b1c97cd2301e",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 25
+                },
+                {
+                  "name": "y",
+                  "ioValue": 0.75
+                }
+              ],
+              "currentEquation": "x/2 -y/2"
+            },
+            {
+              "atomType": "Move",
+              "name": "Move",
+              "x": 0.49076517150395776,
+              "y": 0.4347826086956522,
+              "uniqueID": "416a03f6-a79e-4974-b5e4-5a45e2dd3f01",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": -12.125
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0.5,
+                  "currentEquation": ".5"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Equation",
+              "name": "Equation",
+              "x": 0.2937554969217238,
+              "y": 0.406832298136646,
+              "uniqueID": "7b4d1932-9f10-49cd-82e1-bc40fb7b083e",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 25
+                },
+                {
+                  "name": "y",
+                  "ioValue": 0.75
+                }
+              ],
+              "currentEquation": "-x/2 +y/2"
             }
           ],
           "allConnectors": [
@@ -12900,6 +13248,18 @@
               "ap2Name": "x",
               "ap1ID": "e2874ed4-94d6-41fc-9cd0-edd3b7081f8f",
               "ap2ID": "1fbe0651-d678-468b-8e18-abfd7d3c5d35"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "x",
+              "ap1ID": "e2874ed4-94d6-41fc-9cd0-edd3b7081f8f",
+              "ap2ID": "3e986161-9710-4d6d-ab34-b1c97cd2301e"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "x",
+              "ap1ID": "e2874ed4-94d6-41fc-9cd0-edd3b7081f8f",
+              "ap2ID": "7b4d1932-9f10-49cd-82e1-bc40fb7b083e"
             },
             {
               "ap1Name": "result",
@@ -12924,6 +13284,18 @@
               "ap2Name": "z",
               "ap1ID": "cb08673f-f7c0-45a8-999f-0f35cb5cf36a",
               "ap2ID": "1fbe0651-d678-468b-8e18-abfd7d3c5d35"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "y",
+              "ap1ID": "cb08673f-f7c0-45a8-999f-0f35cb5cf36a",
+              "ap2ID": "3e986161-9710-4d6d-ab34-b1c97cd2301e"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "y",
+              "ap1ID": "cb08673f-f7c0-45a8-999f-0f35cb5cf36a",
+              "ap2ID": "7b4d1932-9f10-49cd-82e1-bc40fb7b083e"
             },
             {
               "ap1Name": "geometry",
@@ -12980,14 +13352,57 @@
               "ap2ID": "16ec6477-ffad-4d34-9923-50b0c377a8f0"
             },
             {
+              "ap1Name": "geometry or number",
+              "ap2Name": "geometry",
+              "ap1ID": "1401d087-8598-4962-8a92-37862123726a",
+              "ap2ID": "7547b5a0-f47f-4ddf-91d1-359c7b95042a"
+            },
+            {
+              "ap1Name": "geometry or number",
+              "ap2Name": "geometry",
+              "ap1ID": "1401d087-8598-4962-8a92-37862123726a",
+              "ap2ID": "416a03f6-a79e-4974-b5e4-5a45e2dd3f01"
+            },
+            {
               "ap1Name": "geometry",
               "ap2Name": "geometry",
               "ap1ID": "428bb29c-ad13-41fc-b851-8eb34466bc1c",
               "ap2ID": "462c896d-f0bc-4992-8a4a-4811381ef880"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "Shape 2",
+              "ap1ID": "7547b5a0-f47f-4ddf-91d1-359c7b95042a",
+              "ap2ID": "428bb29c-ad13-41fc-b851-8eb34466bc1c"
+            },
+            {
+              "ap1Name": "result",
+              "ap2Name": "xDist",
+              "ap1ID": "3e986161-9710-4d6d-ab34-b1c97cd2301e",
+              "ap2ID": "7547b5a0-f47f-4ddf-91d1-359c7b95042a"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "Shape 3",
+              "ap1ID": "416a03f6-a79e-4974-b5e4-5a45e2dd3f01",
+              "ap2ID": "428bb29c-ad13-41fc-b851-8eb34466bc1c"
+            },
+            {
+              "ap1Name": "result",
+              "ap2Name": "xDist",
+              "ap1ID": "7b4d1932-9f10-49cd-82e1-bc40fb7b083e",
+              "ap2ID": "416a03f6-a79e-4974-b5e4-5a45e2dd3f01"
             }
           ],
           "fileTypeVersion": 1,
-          "compiledBom": []
+          "compiledBom": [
+            {
+              "BOMitemName": "Wood Screw 1.25\"",
+              "numberNeeded": 4,
+              "costUSD": 0,
+              "source": "www.example.com"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -13137,7 +13552,14 @@
         }
       ],
       "fileTypeVersion": 1,
-      "compiledBom": []
+      "compiledBom": [
+        {
+          "BOMitemName": "Wood Screw 1.25\"",
+          "numberNeeded": 4,
+          "costUSD": 0,
+          "source": "www.example.com"
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -27483,7 +27905,7 @@
   "compiledBom": [
     {
       "BOMitemName": "Wood Screw 1.25\"",
-      "numberNeeded": 76,
+      "numberNeeded": 80,
       "costUSD": 0,
       "source": "www.example.com"
     }
