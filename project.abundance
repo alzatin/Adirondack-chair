@@ -53,189 +53,8 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": [
-                  {
-                    "geometry": "cut-d4a6a924cc50c7be76688d15d3c6bd914b0e7322de6cc294f39aeccd6c45883a",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": [
-                      {
-                        "geometry": "move-08ab35ff2a3a537f2d7a7ba37950b173fb3b3f9aeb0e2c49877b15f5eeb5b22c",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      },
-                      {
-                        "geometry": "move-31becda38d429d644035e058624e04bd98903e38eff21d0242539aa93e8a3d21",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      },
-                      {
-                        "geometry": "move-c5f007ad7c7782745b290b7ce4fb90896ef5c3179a0ce1f53ed760b38aa27274",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      }
-                    ],
-                    "tags": [],
-                    "bom": [
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      },
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      },
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2"
-                  }
-                ],
-                "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  },
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  },
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  }
-                ],
+                "geometry": "cut-bf501f0d00e2fc1e3085f1c5cc4581c119243467fdfcb52f5e3299bd1886d7ff",
+                "dimension": "3D",
                 "plane": {
                   "origin": [
                     0,
@@ -253,210 +72,9 @@
                     1
                   ]
                 },
-                "color": "#aad7f2"
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "cut-651a723dac8afb830f68b8f64d9ee29975b8e0057b8d6477b997db8933f9d2f9",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": [
-                      {
-                        "geometry": "move-fc31940f597d74109f16d910452e4a766104b9ef4404d154ee32e0958c6cc196",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      },
-                      {
-                        "geometry": "move-6d3ac3d26e9c61564e6e1f902999bd2db9fdb66a54b415017badadfeb7f07c93",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      },
-                      {
-                        "geometry": "move-643f4a16b7ae231798fc11d834f1710329a3c90d3a002da8dc8cbf9fdd89c7fc",
-                        "tags": [],
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      }
-                    ],
-                    "tags": [],
-                    "bom": [
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      },
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      },
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com"
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2"
-                  }
-                ],
+                "color": "#aad7f2",
                 "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  },
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  },
-                  {
-                    "BOMitemName": "New Item",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": "www.example.com"
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
+                "bom": []
               },
               {
                 "geometry": [
@@ -485,7 +103,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-bcb647e98ddc6a8f1cb226147ae5a767d6eb8046a9f68e6da36e05765e592680",
+                    "geometry": "cut-c221d2c649c46bffea4e7b037623ed314e8f08ab6a16630ac615669d4971d976",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -511,7 +129,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-ccb806403fa359bcaa4430f9f72ee992408c99d68e7ffe7196fb58849b4df4dd",
+                        "geometry": "cut-8a67008001c607d4d33f937baea25fd7a40892c522a0ceab089ab6954cd4c71f",
                         "tags": [],
                         "bom": [
                           {
@@ -542,7 +160,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-2c80e47764f73e76ffd470b33a0ea9d70449ae02d20ebaa83d3fe0d5fadf9c43",
+                        "geometry": "cut-67aac9777bb5498e4a34ed602e2f9e556e5a4c7705443afaee0247ebf87d38f0",
                         "tags": [],
                         "bom": [
                           {
@@ -573,7 +191,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-e5998066bb6fea1bfd13739763f32744a8b28894e86be54d11cdc95b9a931c1d",
+                        "geometry": "cut-31cfc088c65869377e488067f588c6d9b2c95f7b1ba26aa08ffe24925ca178b0",
                         "tags": [],
                         "bom": [
                           {
@@ -712,7 +330,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-8dd795fda2894d91738209249f8f3cb57f438a9487321209ed044b9dcc1b25fe",
+                    "geometry": "cut-43e2eacb7aea1228929ea47d7329ee9b02028604a5fa9faec0162f8711781784",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -738,7 +356,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-2d2ae891000180ebc84fc59a51573935a6aa74455ceff8113c4a8d934720a8f8",
+                        "geometry": "cut-4912410ee8ad0af0b698fa46f32617c93802e3b4909a103020caba086174f3d7",
                         "tags": [],
                         "bom": [
                           {
@@ -769,7 +387,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-c7367a7f0382bd186f06a6e5f810052c35c8af51ba44a9750af8e7bdeaf0e8af",
+                        "geometry": "cut-77718f599b48d8580f7de2338cf33cfdfe9321934d74906de27457465358452a",
                         "tags": [],
                         "bom": [
                           {
@@ -800,7 +418,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-776992c208a2c4f940c60c89d484462aa6754ac67bf6e994a0061fd7d46ccfef",
+                        "geometry": "cut-2974777d743a00d60bb7018fafdf6ecd4b17881393c5bf5d5cb58d84cfc554ae",
                         "tags": [],
                         "bom": [
                           {
@@ -917,7 +535,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-adb7cd9600297bdb641c8c7c0e152e4d501c45d02d3acb5b1819bb49654ec11e",
+                        "geometry": "cut-71e1f5f2c0efdc51002e54c34ba6c9073459ea89849e64a9460e4075ce0d0ce2",
                         "dimension": "3D",
                         "tags": [
                           "createdShape"
@@ -945,7 +563,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-2cb0a3e4f17bdbe270cf70c7398fe373ecc027d338d22f8d81daf20b5b308371",
+                            "geometry": "cut-76a51fe611def68ea96de1861866bb5a07315b6f7e900cc8b967c6cb8b2fc21a",
                             "tags": [],
                             "bom": [
                               {
@@ -976,7 +594,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-3e51285fd4eaeef6a8695fed5a1a38dc2fdda199bb65b823d460840620d1a0c8",
+                            "geometry": "cut-9fb89319ed26e98a5a2c3636b09371bd6bfd172d374f609496a2bfe702217958",
                             "tags": [],
                             "bom": [
                               {
@@ -1044,7 +662,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-27a3fdab7deeca21e6eddfc30a914cc517b0912ce44b5ce870716f45d7f81260",
+                            "geometry": "cut-70f63744edb42c07f7bf16fd273cf9fc09c77d9ac928241bb2957455abac901c",
                             "tags": [],
                             "bom": [
                               {
@@ -1075,7 +693,7 @@
                             "dimension": "3D"
                           },
                           {
-                            "geometry": "move-f204c89e6c8deafadc5fa421597125ae3cfb4d0a22d1528a7bb28b9648e2bf60",
+                            "geometry": "cut-c245d882e88406d2eee6e7b0d1b2f4a70a72366a9cc81c071feec4546736c9f3",
                             "tags": [],
                             "bom": [
                               {
@@ -1233,6 +851,412 @@
                   ]
                 },
                 "color": "#aad7f2"
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "cut-93719712158d284bd8d25142b36d0f50ebdca4c7d9214241fd769f644d93b5d0",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-d0a53db4f07bd5447be699cdb7b63b8170257d83b4617b68d5b2dc0e4ba0309a",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-7eda86099e93e8d09e81fcf35acbbf0faf5511ab6d1446c477296fb3e26bc25f",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-e1575f77d522c278566d99c8be96cc962b59a5eae07e25da1c1c7609b140ef67",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2"
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "cut-267b4b7e6f356dc6b0ff60d89027540498a341b1d389d4d5d3ef4bee01d73475",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-0553bf296885316d3e425c6f4fcbd662a94c05c0d5297b82e4580ba2eb4eb111",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-a5d2e0b0731581245b52710515f9a5423f09519ec6288afa12c672a85e8dbd8c",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-a439903185b7e3bc617e432c570e90945b4f88439e35b04b980d4ecd0a895156",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2"
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
               }
             ],
             "plane": {
@@ -1292,42 +1316,6 @@
                 "source": "www.example.com"
               },
               {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
-                "BOMitemName": "New Item",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-              },
-              {
                 "BOMitemName": "Wood Screw 1.25\"",
                 "numberNeeded": 1,
                 "costUSD": 0,
@@ -1347,6 +1335,42 @@
               },
               {
                 "BOMitemName": "Wood Screw 1.25\"",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "New Item",
                 "numberNeeded": 1,
                 "costUSD": 0,
                 "source": "www.example.com"
@@ -13039,8 +13063,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.44854881266490765,
-          "y": 0.35093167701863354,
+          "x": 0.3843447669305189,
+          "y": 0.4503105590062112,
           "uniqueID": "fdc5ae93-002a-4d83-ab90-0b5b27956c96",
           "ioValues": [
             {
@@ -13060,8 +13084,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.8583992963940194,
-          "y": 0.4347826086956522,
+          "x": 0.8680738786279684,
+          "y": 0.453416149068323,
           "uniqueID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5",
           "ioValues": [
             {
@@ -13971,6 +13995,213 @@
                       },
                       {
                         "geometry": "move-e1575f77d522c278566d99c8be96cc962b59a5eae07e25da1c1c7609b140ef67",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2"
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "tags": [],
+                "color": "#aad7f2",
+                "bom": [
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  },
+                  {
+                    "BOMitemName": "New Item",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                  }
+                ],
+                "dimension": "3D"
+              }
+            },
+            {
+              "name": "Shape 7",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "cut-267b4b7e6f356dc6b0ff60d89027540498a341b1d389d4d5d3ef4bee01d73475",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-0553bf296885316d3e425c6f4fcbd662a94c05c0d5297b82e4580ba2eb4eb111",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-a5d2e0b0731581245b52710515f9a5423f09519ec6288afa12c672a85e8dbd8c",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "New Item",
+                            "numberNeeded": 1,
+                            "costUSD": 0,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      },
+                      {
+                        "geometry": "move-a439903185b7e3bc617e432c570e90945b4f88439e35b04b980d4ecd0a895156",
                         "tags": [],
                         "bom": [
                           {
@@ -17878,8 +18109,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.34212840809146877,
-          "y": 0.15838509316770186,
+          "x": 0.34740545294635006,
+          "y": 0.13975155279503104,
           "uniqueID": "f2382f9e-1fc5-4d55-ae36-f270c8345d6b",
           "ioValues": [
             {
@@ -18872,8 +19103,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.6763412489006156,
-          "y": 0.30434782608695654,
+          "x": 0.6807387862796834,
+          "y": 0.32608695652173914,
           "uniqueID": "008f78bb-11f1-4b26-bf48-e79d0c382afd",
           "ioValues": [
             {
@@ -18904,11 +19135,11 @@
               }
             },
             {
-              "name": "Shape 2",
+              "name": "Shape 3",
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-d0a53db4f07bd5447be699cdb7b63b8170257d83b4617b68d5b2dc0e4ba0309a",
+                    "geometry": "move-0553bf296885316d3e425c6f4fcbd662a94c05c0d5297b82e4580ba2eb4eb111",
                     "tags": [],
                     "bom": [
                       {
@@ -18939,7 +19170,7 @@
                     "dimension": "3D"
                   },
                   {
-                    "geometry": "move-7eda86099e93e8d09e81fcf35acbbf0faf5511ab6d1446c477296fb3e26bc25f",
+                    "geometry": "move-a5d2e0b0731581245b52710515f9a5423f09519ec6288afa12c672a85e8dbd8c",
                     "tags": [],
                     "bom": [
                       {
@@ -18970,7 +19201,7 @@
                     "dimension": "3D"
                   },
                   {
-                    "geometry": "move-e1575f77d522c278566d99c8be96cc962b59a5eae07e25da1c1c7609b140ef67",
+                    "geometry": "move-a439903185b7e3bc617e432c570e90945b4f88439e35b04b980d4ecd0a895156",
                     "tags": [],
                     "bom": [
                       {
@@ -19043,6 +19274,70 @@
               }
             }
           ]
+        },
+        {
+          "atomType": "Rotate",
+          "name": "Rotate",
+          "x": 0.3808267370272647,
+          "y": 0.27639751552795033,
+          "uniqueID": "7463072e-4d05-4a43-afdc-ce281747c4df",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 180,
+              "currentEquation": "180"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.5435356200527705,
+          "y": 0.3695652173913043,
+          "uniqueID": "117d6101-b3cb-40b5-9606-e17e2e25beb4",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 12
+            },
+            {
+              "name": "yDist",
+              "ioValue": 24.25,
+              "currentEquation": "12"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 2.5
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "name": "Equation",
+          "x": 0.4670184696569921,
+          "y": 0.3198757763975155,
+          "uniqueID": "f1d3a666-c3cc-4270-97e6-c7c48a582ce9",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 25
+            },
+            {
+              "name": "y",
+              "ioValue": 0.75
+            }
+          ],
+          "currentEquation": "x - y"
         }
       ],
       "allConnectors": [
@@ -19063,6 +19358,12 @@
           "ap2Name": "x",
           "ap1ID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
           "ap2ID": "f86f675b-4c46-4a17-a7c5-46bb83e64a8d"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "x",
+          "ap1ID": "eb3ea92a-5feb-4fb5-8ad3-a76b81aec798",
+          "ap2ID": "f1d3a666-c3cc-4270-97e6-c7c48a582ce9"
         },
         {
           "ap1Name": "geometry",
@@ -19105,6 +19406,12 @@
           "ap2Name": "x",
           "ap1ID": "733ba5d4-5a08-4971-96a4-ef82437150a2",
           "ap2ID": "1933eafd-01c9-4102-a091-acba8c049976"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "y",
+          "ap1ID": "733ba5d4-5a08-4971-96a4-ef82437150a2",
+          "ap2ID": "f1d3a666-c3cc-4270-97e6-c7c48a582ce9"
         },
         {
           "ap1Name": "result",
@@ -19198,12 +19505,6 @@
         },
         {
           "ap1Name": "geometry",
-          "ap2Name": "Shape 2",
-          "ap1ID": "f2382f9e-1fc5-4d55-ae36-f270c8345d6b",
-          "ap2ID": "008f78bb-11f1-4b26-bf48-e79d0c382afd"
-        },
-        {
-          "ap1Name": "geometry",
           "ap2Name": "Shape 4",
           "ap1ID": "f2382f9e-1fc5-4d55-ae36-f270c8345d6b",
           "ap2ID": "7c9ef835-08e3-4b7e-90b6-8b8b9bdca985"
@@ -19219,13 +19520,43 @@
           "ap2Name": "geometry",
           "ap1ID": "0f7fac86-bb48-418b-be2d-2e42332a732a",
           "ap2ID": "f2382f9e-1fc5-4d55-ae36-f270c8345d6b"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "geometry",
+          "ap1ID": "0f7fac86-bb48-418b-be2d-2e42332a732a",
+          "ap2ID": "7463072e-4d05-4a43-afdc-ce281747c4df"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 7",
+          "ap1ID": "008f78bb-11f1-4b26-bf48-e79d0c382afd",
+          "ap2ID": "bc3ba3bc-a7a2-4eb7-a210-a35f180fcdc5"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "7463072e-4d05-4a43-afdc-ce281747c4df",
+          "ap2ID": "117d6101-b3cb-40b5-9606-e17e2e25beb4"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 3",
+          "ap1ID": "117d6101-b3cb-40b5-9606-e17e2e25beb4",
+          "ap2ID": "008f78bb-11f1-4b26-bf48-e79d0c382afd"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "yDist",
+          "ap1ID": "f1d3a666-c3cc-4270-97e6-c7c48a582ce9",
+          "ap2ID": "117d6101-b3cb-40b5-9606-e17e2e25beb4"
         }
       ],
       "fileTypeVersion": 1,
       "compiledBom": [
         {
           "BOMitemName": "New Item",
-          "numberNeeded": 9,
+          "numberNeeded": 12,
           "costUSD": 0,
           "source": "www.example.com"
         },
