@@ -1783,7 +1783,7 @@
               {
                 "geometry": [
                   {
-                    "geometry": "move-0edeab763dc24a96cdb2ed399e4539618af89c7f255a46517c53e3e03dd690fe",
+                    "geometry": "cut-353fd91dc24ca02c6fdcb813aa9df3051f7ecbc226dbf7dbc97a9cbc588d8768",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2663,7 +2663,7 @@
       "atomType": "Molecule",
       "name": "Seat Slots",
       "x": 0.6429199648197009,
-      "y": 0.7391304347826086,
+      "y": 0.7577639751552795,
       "uniqueID": "8d7181b0-b19c-4764-b26b-eb1fe2f29456",
       "ioValues": [
         {
@@ -4339,8 +4339,8 @@
         {
           "atomType": "Molecule",
           "name": "Seat slot",
-          "x": 0.1407211961301671,
-          "y": 0.422360248447205,
+          "x": 0.13984168865435356,
+          "y": 0.43788819875776397,
           "uniqueID": "9777f398-27ac-4912-a847-7e44784cc63e",
           "ioValues": [
             {
@@ -11156,8 +11156,8 @@
     {
       "atomType": "Molecule",
       "name": "Back Slots",
-      "x": 0.29727352682497804,
-      "y": 0.8354037267080745,
+      "x": 0.29463500439753737,
+      "y": 0.8416149068322982,
       "uniqueID": "ea914a92-91f8-49c0-9f88-1f8b111b47ba",
       "ioValues": [
         {
@@ -11187,8 +11187,8 @@
         {
           "atomType": "Molecule",
           "name": "Slots flat",
-          "x": 0.30990864371047083,
-          "y": 0.546583850931677,
+          "x": 0.306948109058927,
+          "y": 0.5372670807453416,
           "uniqueID": "872eb006-d0c7-42c3-bc4e-5d02950ee99b",
           "ioValues": [
             {
@@ -13508,7 +13508,12 @@
               "x": 0.18344709897610922,
               "y": 0.6242236024844721,
               "uniqueID": "7437ce71-46dc-4852-bfb7-57cf16b5664b",
-              "ioValues": [],
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 25
+                }
+              ],
               "currentEquation": "x + 2.5"
             },
             {
@@ -13547,7 +13552,12 @@
               "x": 0.40017064846416384,
               "y": 0.6024844720496894,
               "uniqueID": "bcc31389-1832-426c-b225-7be664ced6a7",
-              "ioValues": []
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 0.75
+                }
+              ]
             },
             {
               "atomType": "Move",
@@ -13579,7 +13589,32 @@
               "ioValues": [
                 {
                   "name": "Shape 4",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-95cc091902a52b28b3fc7cf532534dc20ec4713b4688ee03cdc63b3e4eb54b3a",
+                    "dimension": "3D",
+                    "tags": [
+                      "createdShape"
+                    ],
+                    "color": "#A3CE5B",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": []
+                  }
                 }
               ]
             },
@@ -13616,6 +13651,10 @@
                   "ioValue": 3
                 },
                 {
+                  "name": "yDist",
+                  "ioValue": 12.125
+                },
+                {
                   "name": "zDist",
                   "ioValue": 8.4
                 }
@@ -13627,7 +13666,16 @@
               "x": 0.5870307167235496,
               "y": 0.84472049689441,
               "uniqueID": "f3769323-d5d0-4616-9ae5-d08759da08f8",
-              "ioValues": [],
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 25
+                },
+                {
+                  "name": "z",
+                  "ioValue": 0.75
+                }
+              ],
               "currentEquation": "x /2-z/2"
             },
             {
@@ -13638,12 +13686,20 @@
               "uniqueID": "7dd5a825-2d37-4fdc-a91e-ac13aad171fa",
               "ioValues": [
                 {
+                  "name": "width",
+                  "ioValue": 27.5
+                },
+                {
                   "name": "length",
                   "ioValue": 5
                 },
                 {
                   "name": "radius",
                   "ioValue": 3
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.75
                 }
               ],
               "topLevel": false,
@@ -13662,7 +13718,24 @@
                   "x": 0.5328151986183074,
                   "y": 0.48757763975155277,
                   "uniqueID": "ca95444a-8709-4035-92e4-48ad240edbe8",
-                  "ioValues": [],
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 0.75
+                    },
+                    {
+                      "name": "width",
+                      "ioValue": 27.5
+                    },
+                    {
+                      "name": "rad",
+                      "ioValue": 3
+                    },
+                    {
+                      "name": "length",
+                      "ioValue": 5
+                    }
+                  ],
                   "codeVersion": 1,
                   "code": "\n      const Inputs = [\n      {inputName: \"width\", type: \"number\", defaultValue: 5},\n        {inputName: \"length\", type: \"number\", defaultValue: 10},\n        {inputName: \"rad\", type: \"number\", defaultValue: 2},\n         {inputName: \"height\", type: \"number\", defaultValue: 1}\n        \n      ]\n\n      const newPlane = new replicad.Plane().pivot(0, 'Y')\n      //Create a new shape from scratch using replicad\nconsole.log(replicad)\n      let createdRoundedRectangle = replicad.sketchRoundedRectangle(width, length, rad, newPlane).extrude(height)\n    console.log(createdRoundedRectangle)\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [createdRoundedRectangle],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n     \n\n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
                 },
