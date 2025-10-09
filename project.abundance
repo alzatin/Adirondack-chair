@@ -12391,8 +12391,8 @@
         {
           "atomType": "Rectangle",
           "name": "Rectangle",
-          "x": 0.22184300341296928,
-          "y": 0.24534161490683226,
+          "x": 0.247141600703606,
+          "y": 0.18944099378881987,
           "uniqueID": "5f14ff69-a181-4c0b-9fe3-85fa149835da",
           "ioValues": [
             {
@@ -12444,8 +12444,8 @@
         {
           "atomType": "Extrude",
           "name": "Extrude",
-          "x": 0.4129692832764505,
-          "y": 0.20496894409937888,
+          "x": 0.43095866314863673,
+          "y": 0.1956521739130435,
           "uniqueID": "e810b3c4-ee9e-44a8-bd24-fd09412d7aeb",
           "ioValues": [
             {
@@ -12458,7 +12458,7 @@
           "atomType": "Input",
           "name": "backrestHeight",
           "x": 0.025384615384615384,
-          "y": 0.7888198757763976,
+          "y": 0.7919254658385093,
           "uniqueID": "8f0ee403-c9df-43da-bf07-0b0936c64607",
           "ioValues": [],
           "type": "number"
@@ -12466,8 +12466,8 @@
         {
           "atomType": "Rotate",
           "name": "Rotate",
-          "x": 0.5290102389078498,
-          "y": 0.23602484472049692,
+          "x": 0.5277044854881267,
+          "y": 0.22981366459627328,
           "uniqueID": "fef21bc7-5419-44c8-a197-9a37285d0bee",
           "ioValues": [
             {
@@ -12487,8 +12487,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.7554969217238346,
-          "y": 0.2111801242236025,
+          "x": 0.7651715039577837,
+          "y": 0.22981366459627328,
           "uniqueID": "04d19ae3-3f37-4ba9-986c-c68d91dc9fa9",
           "ioValues": [
             {
@@ -12599,8 +12599,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6051011433597185,
-          "y": 0.3819875776397516,
+          "x": 0.6086191732629728,
+          "y": 0.391304347826087,
           "uniqueID": "159775c1-9a0a-433d-bd3e-f9b97fb3f97e",
           "ioValues": [
             {
@@ -12652,8 +12652,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.8583992963940194,
-          "y": 0.3322981366459627,
+          "x": 0.8522427440633246,
+          "y": 0.34782608695652173,
           "uniqueID": "96280f7a-b813-4781-9d55-9808a2aa1046",
           "ioValues": [
             {
@@ -12724,7 +12724,7 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6657871591908531,
+          "x": 0.6605101143359718,
           "y": 0.5031055900621119,
           "uniqueID": "14f25ec3-8b17-4a18-9543-806a046513bc",
           "ioValues": [
@@ -12759,8 +12759,8 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.7757255936675462,
-          "y": 0.4161490683229814,
+          "x": 0.7897977132805629,
+          "y": 0.5403726708074534,
           "uniqueID": "43814150-0ecf-4c25-8465-5f49b802f12f",
           "ioValues": []
         },
@@ -13410,17 +13410,23 @@
         {
           "atomType": "Molecule",
           "name": "top back side brace",
-          "x": 0.7203166226912929,
-          "y": 0.8043478260869565,
+          "x": 0.683377308707124,
+          "y": 0.8664596273291926,
           "uniqueID": "ec06ef35-2284-4d19-ace7-b88c7588f6c6",
           "ioValues": [
             {
               "name": "ply thick",
-              "ioValue": 10
+              "ioValue": 0.75,
+              "currentEquation": ".75"
             },
             {
               "name": "Back leg width",
-              "ioValue": 10
+              "ioValue": 3,
+              "currentEquation": "3"
+            },
+            {
+              "name": "backrestHeight",
+              "ioValue": 26
             }
           ],
           "topLevel": false,
@@ -13604,17 +13610,21 @@
             {
               "atomType": "Molecule",
               "name": "brace part",
-              "x": 0.35092348284960423,
-              "y": 0.4409937888198758,
+              "x": 0.326297273526825,
+              "y": 0.48447204968944096,
               "uniqueID": "b429e1c5-55ed-414b-95bc-94cfe6772ef7",
               "ioValues": [
                 {
                   "name": "ply thick",
-                  "ioValue": 10
+                  "ioValue": 0.75
                 },
                 {
                   "name": "Back leg width",
-                  "ioValue": 10
+                  "ioValue": 3
+                },
+                {
+                  "name": "backrestHeight",
+                  "ioValue": 26
                 }
               ],
               "topLevel": false,
@@ -13630,8 +13640,8 @@
                 {
                   "atomType": "Input",
                   "name": "ply thick",
-                  "x": 0.15606860158311345,
-                  "y": 0.4627329192546583,
+                  "x": 0.025384615384615384,
+                  "y": 0.5590062111801242,
                   "uniqueID": "33c7e122-ca44-4359-8998-44346764bfad",
                   "ioValues": [],
                   "type": "number"
@@ -13639,16 +13649,143 @@
                 {
                   "atomType": "Input",
                   "name": "Back leg width",
-                  "x": 0.20092348284960423,
-                  "y": 0.4472049689440994,
+                  "x": 0.025384615384615384,
+                  "y": 0.4440993788819876,
                   "uniqueID": "4f9d3588-6b48-436a-a660-fbaf46b69da4",
                   "ioValues": [],
                   "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "backrestHeight",
+                  "x": 0.025384615384615384,
+                  "y": 0.7111801242236025,
+                  "uniqueID": "a7fefb77-b1a1-4fc9-9125-094f5c8a45ef",
+                  "ioValues": [],
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "name": "input",
+                  "x": 0.025384615384615384,
+                  "y": 0.24844720496894407,
+                  "uniqueID": "7cb4dfd9-0dcf-422a-82bf-b8aa1f8b99c8",
+                  "ioValues": [],
+                  "type": "geometry"
+                },
+                {
+                  "atomType": "Rectangle",
+                  "name": "Rectangle",
+                  "x": 0.287598944591029,
+                  "y": 0.5527950310559007,
+                  "uniqueID": "d2530f6f-9fae-46fd-aa2f-33e381483281",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 4,
+                      "currentEquation": "4"
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 3,
+                      "currentEquation": "3"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "name": "Extrude",
+                  "x": 0.4450307827616535,
+                  "y": 0.47204968944099385,
+                  "uniqueID": "07573b0d-741f-4611-bfcb-53c57becdbe5",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 0.75
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rotate",
+                  "name": "Rotate",
+                  "x": 0.5848724714160071,
+                  "y": 0.6086956521739131,
+                  "uniqueID": "06192409-0f85-47f0-b2cd-26e04b3213aa",
+                  "ioValues": [
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 90,
+                      "currentEquation": "90"
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": 90,
+                      "currentEquation": "90"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "name": "Move",
+                  "x": 0.7000879507475813,
+                  "y": 0.8260869565217391,
+                  "uniqueID": "113cda97-0202-41e3-ac9e-8516f5288344",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
                 }
               ],
-              "allConnectors": [],
+              "allConnectors": [
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "height",
+                  "ap1ID": "33c7e122-ca44-4359-8998-44346764bfad",
+                  "ap2ID": "07573b0d-741f-4611-bfcb-53c57becdbe5"
+                },
+                null,
+                {
+                  "ap1Name": "number or geometry",
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "7cb4dfd9-0dcf-422a-82bf-b8aa1f8b99c8",
+                  "ap2ID": "d03b4c15-12fd-4829-bf2e-df62dab669d9"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "d2530f6f-9fae-46fd-aa2f-33e381483281",
+                  "ap2ID": "07573b0d-741f-4611-bfcb-53c57becdbe5"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "07573b0d-741f-4611-bfcb-53c57becdbe5",
+                  "ap2ID": "06192409-0f85-47f0-b2cd-26e04b3213aa"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "06192409-0f85-47f0-b2cd-26e04b3213aa",
+                  "ap2ID": "113cda97-0202-41e3-ac9e-8516f5288344"
+                }
+              ],
               "fileTypeVersion": 1,
-              "compiledBom": {}
+              "compiledBom": []
             },
             {
               "atomType": "Input",
@@ -13667,6 +13804,15 @@
               "uniqueID": "88ca2ed8-8eb3-4bc3-947d-28cdda555436",
               "ioValues": [],
               "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "name": "backrestHeight",
+              "x": 0.025384615384615384,
+              "y": 0.35093167701863354,
+              "uniqueID": "9bcb6bf5-2fdc-423b-89e6-3f9138aa9e5e",
+              "ioValues": [],
+              "type": "number"
             }
           ],
           "allConnectors": [
@@ -13675,6 +13821,12 @@
               "ap2Name": "Shape 1",
               "ap1ID": "a6501619-d0cc-4083-82e6-84aea30b5c92",
               "ap2ID": "df41828f-dbab-4043-b78a-facbcf202b46"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "input",
+              "ap1ID": "a6501619-d0cc-4083-82e6-84aea30b5c92",
+              "ap2ID": "b429e1c5-55ed-414b-95bc-94cfe6772ef7"
             },
             {
               "ap1Name": "geometry",
@@ -13692,6 +13844,12 @@
               "ap1Name": "number or geometry",
               "ap2Name": "Back leg width",
               "ap1ID": "88ca2ed8-8eb3-4bc3-947d-28cdda555436",
+              "ap2ID": "b429e1c5-55ed-414b-95bc-94cfe6772ef7"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "backrestHeight",
+              "ap1ID": "9bcb6bf5-2fdc-423b-89e6-3f9138aa9e5e",
               "ap2ID": "b429e1c5-55ed-414b-95bc-94cfe6772ef7"
             }
           ],
@@ -13765,6 +13923,12 @@
           "ap2Name": "x",
           "ap1ID": "8f0ee403-c9df-43da-bf07-0b0936c64607",
           "ap2ID": "78db968e-c870-46f1-b68f-dc74e72991fc"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "backrestHeight",
+          "ap1ID": "8f0ee403-c9df-43da-bf07-0b0936c64607",
+          "ap2ID": "ec06ef35-2284-4d19-ace7-b88c7588f6c6"
         },
         {
           "ap1Name": "geometry",
