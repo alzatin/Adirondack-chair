@@ -11154,8 +11154,8 @@
         {
           "atomType": "Molecule",
           "name": "Front leg",
-          "x": 0.31926121372031663,
-          "y": 0.3726708074534162,
+          "x": 0.3016710642040457,
+          "y": 0.36335403726708076,
           "uniqueID": "0855765a-e7d7-4da1-8f60-2a844300c222",
           "ioValues": [
             {
@@ -11164,7 +11164,8 @@
             },
             {
               "name": "front leg height",
-              "ioValue": 22
+              "ioValue": 22,
+              "currentEquation": "22"
             },
             {
               "name": "armRestHeight",
@@ -11184,8 +11185,8 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.20733788395904437,
-              "y": 0.3074534161490683,
+              "x": 0.21284080914687775,
+              "y": 0.3167701863354037,
               "uniqueID": "522064b3-8b17-4bb3-91b3-5ffe4c440b67",
               "ioValues": [
                 {
@@ -11244,25 +11245,27 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.20733788395904437,
-              "y": 0.5093167701863354,
+              "x": 0.1943711521547933,
+              "y": 0.5962732919254659,
               "uniqueID": "85fea893-3d67-4a0d-aaa1-a3c1766c66cb",
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 5
+                  "ioValue": 5,
+                  "currentEquation": "5"
                 },
                 {
                   "name": "y length",
-                  "ioValue": 4
+                  "ioValue": 4,
+                  "currentEquation": "4"
                 }
               ]
             },
             {
               "atomType": "Extrude",
               "name": "Extrude",
-              "x": 0.47952218430034127,
-              "y": 0.6273291925465838,
+              "x": 0.47493403693931396,
+              "y": 0.6304347826086957,
               "uniqueID": "dc3b2ab3-02ef-4690-abd9-de78dde5c3ca",
               "ioValues": [
                 {
@@ -11316,16 +11319,16 @@
             {
               "atomType": "Difference",
               "name": "Difference",
-              "x": 0.3993174061433447,
-              "y": 0.48136645962732916,
+              "x": 0.3834652594547054,
+              "y": 0.5559006211180124,
               "uniqueID": "8d682c8c-ab36-4bbb-831e-fd192246f8dc",
               "ioValues": []
             },
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.15443686006825938,
-              "y": 0.8043478260869565,
+              "x": 0.14951627088830255,
+              "y": 0.813664596273292,
               "uniqueID": "511ffaa5-bd9d-4c9f-a3c8-5d21cd9719b0",
               "ioValues": [
                 {
@@ -11341,8 +11344,8 @@
             {
               "atomType": "Rotate",
               "name": "Rotate",
-              "x": 0.582764505119454,
-              "y": 0.546583850931677,
+              "x": 0.5848724714160071,
+              "y": 0.5341614906832298,
               "uniqueID": "a454a91f-2714-4331-8bc5-9507a87b0a0e",
               "ioValues": [
                 {
@@ -11393,30 +11396,7 @@
                 },
                 {
                   "name": "Shape 4",
-                  "ioValue": {
-                    "geometry": "move-75b562f4ade9441010e75a47762daed5c2ea1d225dd7f3f17c46525760d0347f",
-                    "dimension": "3D",
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ]
             },
