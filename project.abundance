@@ -44,8 +44,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.7475915221579962,
-      "y": 0.3819875776397516,
+      "x": 0.7389210019267822,
+      "y": 0.4627329192546583,
       "uniqueID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc",
       "ioValues": [
         {
@@ -32606,6 +32606,27 @@
           "numberNeeded": 36,
           "costUSD": 0,
           "source": "www.example.com"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.5,
+      "y": 0.5,
+      "uniqueID": "6840aa60-4490-41d2-b4d3-602467e23844",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     }
