@@ -6921,6 +6921,27 @@
       ]
     },
     {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.5,
+      "y": 0.5,
+      "uniqueID": "e3d86da1-202f-49c2-9944-90d3568a1fab",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "name": "Seat Slots",
       "x": 0.6481970096745823,
@@ -32585,27 +32606,6 @@
           "numberNeeded": 36,
           "costUSD": 0,
           "source": "www.example.com"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "name": "Rotate",
-      "x": 0.5,
-      "y": 0.5,
-      "uniqueID": "e3d86da1-202f-49c2-9944-90d3568a1fab",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
         }
       ]
     }
