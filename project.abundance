@@ -6810,8 +6810,8 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.4670184696569921,
-      "y": 0.7049689440993789,
+      "x": 0.42579324462640733,
+      "y": 0.8167701863354037,
       "uniqueID": "45d20c37-d0d0-427c-a88f-a8e24471bbbd",
       "ioValues": [
         {
@@ -6918,27 +6918,6 @@
             }
           }
         ]
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "name": "Rotate",
-      "x": 0.5373592630501536,
-      "y": 0.48447204968944096,
-      "uniqueID": "e3d86da1-202f-49c2-9944-90d3568a1fab",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
       ]
     },
     {
@@ -11593,8 +11572,8 @@
     {
       "atomType": "Molecule",
       "name": "Arms",
-      "x": 0.4614643545279383,
-      "y": 0.3012422360248447,
+      "x": 0.4278403275332651,
+      "y": 0.3385093167701863,
       "uniqueID": "41af37e5-92b1-4a25-9b9d-5c20d49d71d2",
       "ioValues": [
         {
@@ -25165,8 +25144,8 @@
     {
       "atomType": "Molecule",
       "name": "Back Slots",
-      "x": 0.2884784520668426,
-      "y": 0.8788819875776397,
+      "x": 0.21392016376663256,
+      "y": 0.8229813664596274,
       "uniqueID": "ea914a92-91f8-49c0-9f88-1f8b111b47ba",
       "ioValues": [
         {
@@ -32706,12 +32685,6 @@
       "ap2Name": "Shape 5",
       "ap1ID": "7bb7373c-0a3d-4d4b-9cd0-1aa390bbbb07",
       "ap2ID": "fd528b75-454a-4a4e-a813-3112a0a9f4dc"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "7bb7373c-0a3d-4d4b-9cd0-1aa390bbbb07",
-      "ap2ID": "e3d86da1-202f-49c2-9944-90d3568a1fab"
     },
     {
       "ap1Name": "geometry or number",
