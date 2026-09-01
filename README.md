@@ -2,7 +2,7 @@
 
 # Adirondack-chair
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
